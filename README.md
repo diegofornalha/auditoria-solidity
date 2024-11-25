@@ -42,18 +42,6 @@
 # Sumário
 
 <details>
-<summary>Curso Definitivo de Auditoria, Assembly, Segurança e DeFi em Smart Contracts</summary>
-<ol>
-<li><a href="#curso-definitivo-de-auditoria-assembly-segurança-e-defi-em-smart-contracts">Curso Definitivo de Auditoria, Assembly, Segurança e DeFi em Smart Contracts</a></li>
-</ol>
-</details>
-<details>
-<summary>Sumário</summary>
-<ol>
-<li><a href="#sumário">Sumário</a></li>
-</ol>
-</details>
-<details>
 <summary>Introdução, Recursos e Pré-requisitos</summary>
 <ol>
 <li><a href="#recursos-para-este-curso">Recursos Para Este Curso</a></li>
