@@ -1,13 +1,13 @@
-[contributors-shield]: https://img.shields.io/github/contributors/cyfrin/security-and-auditing-full-course-s23.svg?style=for-the-badge
-[contributors-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/cyfrin/security-and-auditing-full-course-s23.svg?style=for-the-badge
-[forks-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/network/members
-[stars-shield]: https://img.shields.io/github/stars/cyfrin/security-and-auditing-full-course-s23.svg?style=for-the-badge
-[stars-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/stargazers
-[issues-shield]: https://img.shields.io/github/issues/cyfrin/security-and-auditing-full-course-s23.svg?style=for-the-badge
-[issues-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/issues
-[license-shield]: https://img.shields.io/github/license/cyfrin/security-and-auditing-full-course-s23.svg?style=for-the-badge
-[license-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/diegofornalha/auditoria-solidity.svg?style=for-the-badge
+[contributors-url]: https://github.com/diegofornalha/auditoria-solidity/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/diegofornalha/auditoria-solidity.svg?style=for-the-badge
+[forks-url]: https://github.com/diegofornalha/auditoria-solidity/network/members
+[stars-shield]: https://img.shields.io/github/stars/diegofornalha/auditoria-solidity.svg?style=for-the-badge
+[stars-url]: https://github.com/diegofornalha/auditoria-solidity/stargazers
+[issues-shield]: https://img.shields.io/github/issues/diegofornalha/auditoria-solidity.svg?style=for-the-badge
+[issues-url]: https://github.com/diegofornalha/auditoria-solidity/issues
+[license-shield]: https://img.shields.io/github/license/diegofornalha/auditoria-solidity.svg?style=for-the-badge
+[license-url]: https://github.com/diegofornalha/auditoria-solidity/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
 <h1 align="center"> Auditoria Solidity
