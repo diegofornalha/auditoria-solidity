@@ -10,10 +10,10 @@
 [license-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
-<h1 align="center"> Curso Definitivo de Auditoria, Assembly, Segurança e DeFi em Smart Contracts
+<h1 align="center"> Auditoria Solidity
  </h1>
 
-<p align="center"><strong> Eleve sua carreira como auditor de smart contracts escrevendo contratos seguros e otimizados.
+<p align="center"><strong> Eleve sua carreira como auditor de smart contracts.
 </strong></p>
 
 <div align="center">
@@ -34,30 +34,14 @@
 
 </div>
 
-Bem-vindo ao repositório do Curso Definitivo de Auditoria, Assembly, Segurança e DeFi em Smart Contracts da Cyfrin Updraft e The Red Guild!
-
 > [IMPORTANTE!]
-> Link do Curso: https://updraft.cyfrin.io/courses/security
+> Link do Curso de referência: https://updraft.cyfrin.io/courses/security
 
-Este repositório contém o conteúdo escrito dos nossos cursos, organizado para facilitar o acesso e contribuição da nossa comunidade.
-Por favor, consulte isto para uma explicação detalhada do conteúdo:
-
-- [Website](https://updraft.cyfrin.io/) - Junte-se à Cyfrin Updraft e aproveite mais de 50 horas de cursos de desenvolvimento de smart contracts
-- [Twitter](https://twitter.com/cyfrinupdraft) - Fique atualizado com os últimos lançamentos de cursos
-- [LinkedIn](https://www.linkedin.com/school/cyfrin-updraft/) - Adicione a Updraft às suas experiências de aprendizado
-- [Discord](http://discord.gg/cyfrin) - Junte-se a uma comunidade de mais de 3000 desenvolvedores e auditores
+- [Website](https://updraft.cyfrin.io/) - Junte-se à Cyfrin.
 - [Newsletter](https://www.cyfrin.io/newsletter) - Dicas e recursos semanais de pesquisa em segurança para elevar sua carreira
 - [Codehawks](https://www.codehawks.com/) - Competições de auditoria de smart contracts para ajudar a proteger a web3
 
 </br>
-
-<br/>
-<p align="center">
-<a href="https://updraft.cyfrin.io/" target="_blank">
-<img src="./images/course-hero.jpg" width="500" alt="Curso Definitivo de Segurança, Auditoria, Assembly e DeFi em Smart Contracts">
-</a>
-</p>
-<br/>
 
 # Sumário
 
