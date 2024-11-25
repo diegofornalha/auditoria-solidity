@@ -7,7 +7,6 @@
 [issues-shield]: https://img.shields.io/github/issues/diegofornalha/auditoria-solidity.svg?style=for-the-badge
 [issues-url]: https://github.com/diegofornalha/auditoria-solidity/issues
 [license-shield]: https://img.shields.io/github/license/diegofornalha/auditoria-solidity.svg?style=for-the-badge
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
 <h1 align="center"> Auditoria Solidity
  </h1>
