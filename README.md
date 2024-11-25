@@ -32,8 +32,6 @@
     <br />
 </p>
 
-E [The Red Guild](https://theredguild.org/)
-
 </div>
 
 Bem-vindo ao repositório do Curso Definitivo de Auditoria, Assembly, Segurança e DeFi em Smart Contracts da Cyfrin Updraft e The Red Guild!
