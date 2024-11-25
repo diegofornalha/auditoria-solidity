@@ -447,7 +447,7 @@ E finalmente, ao embarcar nesta jornada, você agora é um "Pesquisador de Segur
 
 🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯
 
-<p align="right">(<a href="#table-of-contents">voltar ao topo</a>) ⬆️</p>
+<p align="right">(<a href="#sumário">voltar ao topo</a>) ⬆️</p>
 
 # 🐸 Seção 1: Revisão (Não pule)
 
