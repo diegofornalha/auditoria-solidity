@@ -1,157 +1,113 @@
-# How to ask a question 
+# Como fazer uma pergunta
 
-> Note: Before reading this, you might want to read my guide on [top 6 tips to solve any software engineering error](https://medium.com/better-programming/top-6-tips-to-solve-any-software-engineering-error-a794a162fcaf).
+> Nota: Antes de ler isto, você pode querer ler meu guia sobre [6 principais dicas para resolver qualquer erro de engenharia de software](https://medium.com/better-programming/top-6-tips-to-solve-any-software-engineering-error-a794a162fcaf).
 
-Also note, take this pledge: "I solemnly swear that after asking a question I will spend at least 5 minutes trying to answer someone else's question. I will consult the 'How to answer a question' page before I do so. "
+Além disso, faça este compromisso: "Eu juro solenemente que depois de fazer uma pergunta, passarei pelo menos 5 minutos tentando responder à pergunta de outra pessoa. Consultarei a página 'Como responder uma pergunta' antes de fazê-lo."
 
-The internet is our documentation, and we want to treat it as such. **Every** *specific* question we have *should* be able to be found by typing it into a web search bar. 
+A internet é nossa documentação, e queremos tratá-la como tal. **Toda** pergunta _específica_ que tivermos _deve_ poder ser encontrada digitando-a em uma barra de pesquisa web.
 
-Now, there are no "bad" questions, but there are poorly-formatted questions. A poorly formatted question has a low chance of being answered, poor chance of being discovered, and can "clutter up" forums and discussion boards. So let's make sure we strive for well-formatted questions!
+Agora, não existem perguntas "ruins", mas existem perguntas mal formatadas. Uma pergunta mal formatada tem baixa chance de ser respondida, baixa chance de ser descoberta e pode "entulhar" fóruns e quadros de discussão. Então, vamos nos esforçar para fazer perguntas bem formatadas!
 
-# Full Examples at the bottom!
+# Exemplos completos no final!
 
-Here are the steps to ask a well-formatted question:
+Aqui estão os passos para fazer uma pergunta bem formatada:
 
-1. Search to see if the question has already been asked
-2. Know where to post your question
-3. Make a title that summarizes the problem
-4. Introduce the problem before writing any code
-5. Make sure you format code using backticks (```) and a language tag
-6. Make sure you copy paste your code instead of using screenshots
-7. Make sure your code is a minimal example
+1. Pesquise para ver se a pergunta já foi feita
+2. Saiba onde postar sua pergunta
+3. Faça um título que resuma o problema
+4. Introduza o problema antes de escrever qualquer código
+5. Certifique-se de formatar o código usando crases (```) e uma tag de linguagem
+6. Certifique-se de copiar e colar seu código em vez de usar screenshots
+7. Certifique-se de que seu código seja um exemplo mínimo
 
+# 1. Pesquise para ver se a pergunta já foi feita
 
-# 1. Search to see if the question has already been asked
+## Não pule esta etapa!
 
-## Do not skip this step!
+Devemos pensar na internet como um documento gigante. Se uma pergunta já foi feita e você pode encontrá-la na primeira página do seu mecanismo de busca, ótimo! Não faça a pergunta novamente!
 
-We should think of the internet as one giant document. If a question has already been asked and you can find it on the first page of your search engine, it's good! Don't ask the question again! 
+E se não estiver na primeira página dos seus resultados de pesquisa, então **sim, você deve 100% fazer a pergunta em um fórum mesmo que saiba a resposta.**
 
-And if it's not on the first page of your search results, then **yes, you should 100% ask the question on a forum even if you know the answer.**
+Queremos que toda pergunta técnica já feita seja:
 
-We want every tech question ever to be:
+1. Indexada por mecanismos de busca
+2. Fácil de encontrar
+3. Fácil de reproduzir
 
-1. Indexed by search engines
-2. Easy to find
-3. Easy to reproduce
+Assim, em 6 meses, quando você esquecer a resposta, pode simplesmente pesquisar no Google e ela aparecerá!
 
-So that in 6 months when you forget the answer, you can just google it and it'll show up!
+Não queremos que haja múltiplas perguntas, pois isso pode fragmentar onde as pessoas procuram! Queremos adicionar respostas, comentários, etc., tudo em um só lugar.
 
-We don't want there to be multiple questions, because that can fragment where people look! We want to add answers, comments, etc all in one place
+# 2. Saiba onde postar sua pergunta
 
-# 2. Know where to post your question
+Eu categorizo as perguntas em três tipos:
 
-I categorize questions into one of three:
+- Perguntas específicas baseadas em código
+- Perguntas teóricas genéricas
+- Perguntas de "conhecimento interno", suporte ou emergência
 
-- Specific code based questions
-- Generic theoretical questions
-- "In the know", support, or emergency questions
+## Perguntas específicas baseadas em código
 
-## Specific code based questions
+É isso que buscamos. São perguntas reproduzíveis que ajudam o mundo. Você vai querer colocar essas perguntas em lugares como:
 
-These are what we strive for. These are reproducible questions that help the world. You'll want to put these questions in places like:
-
-- The "Q&A" discussions section of this course
+- A seção de discussões "Q&A" deste curso
 - stackoverflow
-- stack exchange ETH. 
+- stack exchange ETH
 
-These are questions that typically can have a "right" or "many right answers". Generally, these are not very opinionated questions. 
+São perguntas que geralmente podem ter uma resposta "certa" ou "várias respostas certas". Geralmente, não são perguntas muito opinativas.
 
-These are questions like "How to convert bytes32 to uint256". 
+São perguntas como "Como converter bytes32 para uint256".
 
-## Generic Theoretical Questions
+## Perguntas Teóricas Genéricas
 
-These are questions that likely do not have a canonical answer. These are questions like "which blockchain should I deploy to?" or "How could I make a game that involves many random characters?". They belong in places like:
+São perguntas que provavelmente não têm uma resposta canônica. São perguntas como "em qual blockchain devo implantar?" ou "Como posso fazer um jogo que envolva muitos personagens aleatórios?". Elas pertencem a lugares como:
 
-- The "General" discussions section of this course
-- A generic forum like Reddit, Twitter
-- Discord (like some of the ones people have started here)
+- A seção de discussões "Geral" deste curso
+- Um fórum genérico como Reddit, Twitter
+- Discord (como alguns que as pessoas começaram aqui)
 
-Ideally, you put these on an indexed forum like reddit and the general discussions section instead of discord so others can do a web search for the problems.
+Idealmente, você coloca essas em um fórum indexado como reddit e na seção de discussões gerais em vez do discord para que outros possam pesquisar os problemas na web.
 
-## "In the know", support, or emergency questions
+## Perguntas de "conhecimento interno", suporte ou emergência
 
-These are very specific use cases and 99% of your questions will not be these kinds. These are questions like "we just got hacked, can you help us?", "Want to join my team", etc. They are questions that likely only apply to your situation and what you are doing. They belong in:
+São casos de uso muito específicos e 99% das suas perguntas não serão desse tipo. São perguntas como "acabamos de ser hackeados, pode nos ajudar?", "Quer se juntar à minha equipe", etc. São perguntas que provavelmente só se aplicam à sua situação e ao que você está fazendo. Elas pertencem a:
 
-- Discord DMs
+- DMs do Discord
 - Email
 - etc
 
-And should be used *very* sparingly. 
+E devem ser usadas com _muita_ moderação.
 
-# 3. Make a title that summarizes the problem
+# 3. Faça um título que resuma o problema
 
-It should be minimal, searchable, indexable (by search engines).
+Deve ser mínimo, pesquisável, indexável (por mecanismos de busca).
 
-## Examples:
-Bad:
-- I'm stuck, please help
+## Exemplos:
 
-Good:
-- Could Not Detect Network using WSL & Ganache
+Ruim:
 
-Bad:
-- hardhat error
+- Estou travado, por favor ajuda
 
-Good:
-- TypeError: Cannot read property 'length' of undefined - when deploying contract
+Bom:
 
-# 4. Introduce the problem before writing any code
+- Não Foi Possível Detectar Rede usando WSL & Ganache
 
-In the body of the question, say what you're trying to do, what you've done, and give a summary of your problem.
+Ruim:
 
-With this course in the discussions tab, you may also give a timestamp of where you're getting the issue (in fact, please give a timestamp with a link to the location in the video).
+- erro do hardhat
 
-# 5. Make sure you format code using backticks (```) and a language tag
+Bom:
 
-You'll want to format your question so it's as easy as possible to read! Especially with your code snippets.
+- TypeError: Cannot read property 'length' of undefined - ao implantar contrato
 
-Your code should show up like this:
+# 4. Introduza o problema antes de escrever qualquer código
 
-```javascript
-// my code here
-```
+No corpo da pergunta, diga o que você está tentando fazer, o que você fez e dê um resumo do seu problema.
 
-In your question, you'll type it like this:
+Com este curso na aba de discussões, você também pode dar um timestamp de onde está tendo o problema (na verdade, por favor, forneça um timestamp com um link para a localização no vídeo).
 
-````
-```javascript
-// my code here
-```
-````
+# 5. Certifique-se de formatar o código usando crases (```) e uma tag de linguagem
 
-If it doesn't get formatted, you can edit your question (usually, you can click the three little dots at the top right of your question) to make it formatted nicely. 
+Você vai querer formatar sua pergunta para que seja o mais fácil possível de ler! Especialmente com seus trechos de código.
 
-# 6. Make sure you copy paste your code instead of using screenshots
-
-We want web crawlers to index every word you write, so even copy paste errors (and format them with 3 backticks!)
-
-
-# 7. Make sure your code is a minimal example
-
-There are two types of code questions:
-
-- Debug me
-- Specific questions
-
-Don't be a "Debug Me"
-
-## Example of a poorly formatted question (a debug me question):
-
-Hi I'm confused my code isn't working here is all my code
-
-```javascript
-// pretend I pasted like 300 lines of code here
-```
-
-## Example of a much better question
-
-I'm getting `error x` on line 42 of my code:
-
-```javascript
-const some_var = "dog"
-// this is the line that is erroring
-```
-
-[More information on reproducible code.](https://stackoverflow.com/help/minimal-reproducible-example)
-
+Seu código deve aparecer assim:

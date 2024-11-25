@@ -1,15 +1,11 @@
-Soon:
-5. Fix the readme with timestamps
-6. Fix the readme's links
-7. Add timestamp in github to installing WSL from the foundry full course
-8. Update all YouTube video descriptions
-9. Media Kit
+Em breve: 5. Corrigir o readme com timestamps 6. Corrigir os links do readme 7. Adicionar timestamp no github para instalação do WSL do curso completo do foundry 8. Atualizar todas as descrições dos vídeos do YouTube 9. Kit de Mídia
 
-Later:
-1. Revamp signatures section. It needs to be more step by step
-2. Revamp MEV section to make it step by step
-3. Do Part 2
+Depois:
 
+1. Reformular seção de assinaturas. Precisa ser mais passo a passo
+2. Reformular seção MEV para torná-la passo a passo
+3. Fazer Parte 2
 
-Video (part 2) TODOs:
-- Watch these and see if we need more from them: https://x.com/0xkarmacoma/status/1725651073950761420?s=20
+TODOs do Vídeo (parte 2):
+
+- Assistir estes e ver se precisamos de mais deles: https://x.com/0xkarmacoma/status/1725651073950761420?s=20

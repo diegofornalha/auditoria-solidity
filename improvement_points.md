@@ -1,21 +1,21 @@
-# Improvement notes
+# Notas de Melhoria
 
-Some improvement notes on how to teach security and auditing in future curriculums. 
+Algumas notas de melhoria sobre como ensinar segurança e auditoria em currículos futuros.
 
+## Análises de Auditoria / Bugs
 
-## Audit / Bug Walkthroughs
-1. Potentially try a new setup for doing audit walkthroughs.
-   1. Option A: Intro Bugs -> find in walkthrough 
-      1. First, go through a list of bugs
-         1. Introduce bug names 
-         2. Show diagrams of them
-         3. Show a demo of them in remix
-         4. Write out a PoC of them in foundry (classic video stuff)
-         5. Case studies on real-world examples of the bug 
-      2. Then, go through a walkthrough of the audit, and say "we are ONLY going to be looking for these class of bugs"
-         1. Walk into bug during manual review/fuzz testing/etc
-         2. Do PoC in foundry
-         3. Write report 
-   2. Option B: Find bugs as you come across them (the current implementation, sort of)
+1. Potencialmente tentar uma nova configuração para fazer análises de auditoria.
+   1. Opção A: Introdução aos Bugs -> encontrar na análise
+      1. Primeiro, passar por uma lista de bugs
+         1. Introduzir nomes dos bugs
+         2. Mostrar diagramas deles
+         3. Fazer uma demonstração deles no remix
+         4. Escrever uma PoC deles no foundry (material clássico de vídeo)
+         5. Estudos de caso de exemplos reais do bug
+      2. Depois, fazer uma análise da auditoria, e dizer "vamos APENAS procurar por estas classes de bugs"
+         1. Encontrar bug durante revisão manual/testes fuzzing/etc
+         2. Fazer PoC no foundry
+         3. Escrever relatório
+   2. Opção B: Encontrar bugs conforme aparecem (a implementação atual, mais ou menos)
 
-I think we should try Option A. Then, after each section, give students a DIFFERENT codebase for them to find the bugs in. Ideally these codebases can be made into first flights later. 
+Acho que devemos tentar a Opção A. Depois, após cada seção, dar aos alunos uma base de código DIFERENTE para que encontrem os bugs. Idealmente essas bases de código podem se tornar primeiros voos posteriormente.

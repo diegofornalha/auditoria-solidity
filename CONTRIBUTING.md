@@ -1,35 +1,35 @@
-# How do I make a contribution?
+# Como faço uma contribuição?
 
-Never made an open-source contribution before? Wondering how contributions work in this project? Here's a quick run-down!
+Nunca fez uma contribuição open-source antes? Está se perguntando como funcionam as contribuições neste projeto? Aqui está um guia rápido!
 
-- Find an issue that you want to address or a feature that you want to add.
+- Encontre uma issue que você queira resolver ou uma funcionalidade que queira adicionar.
 
-- Fork the repository associated with the issue to your local GitHub organization. This means that you will have a copy of the repository under `your-GitHub-username/repository-name`.
+- Faça um fork do repositório associado à issue para sua organização local do GitHub. Isso significa que você terá uma cópia do repositório em `seu-nome-de-usuario-GitHub/nome-do-repositorio`.
 
-- Clone the forked repository to your local machine using `git clone https://github.com/github-username/repository-name.git`. E.g. for a repo named "xyzRepo", the user can run https://github.com/github-username/xyzRepo.git.
+- Clone o repositório forkado para sua máquina local usando `git clone https://github.com/nome-de-usuario-github/nome-do-repositorio.git`. Por exemplo, para um repositório chamado "xyzRepo", você pode executar https://github.com/nome-de-usuario-github/xyzRepo.git.
 
-- Create a new branch for your fix using `git checkout -b branch-name-here`. E.g `git checkout -b main`
+- Crie uma nova branch para sua correção usando `git checkout -b nome-da-branch-aqui`. Por exemplo `git checkout -b main`
 
-- Make the appropriate changes for the issue you are trying to address or the feature that you want to add.
+- Faça as alterações apropriadas para a issue que você está tentando resolver ou a funcionalidade que deseja adicionar.
 
-- Use `git add insert-paths-of-changed-files-here` to add the file contents of the changed files to the "snapshot" git uses to manage the state of the project, also known as the index.
+- Use `git add insira-caminhos-dos-arquivos-alterados-aqui` para adicionar o conteúdo dos arquivos modificados ao "snapshot" que o git usa para gerenciar o estado do projeto, também conhecido como índice.
 
-- Use `git commit -m "Insert a short message of the changes made here"` to store the contents of the index with a descriptive message.
+- Use `git commit -m "Insira uma mensagem curta das alterações feitas aqui"` para armazenar o conteúdo do índice com uma mensagem descritiva.
 
-- Push the changes to the remote repository using `git push origin branch-name-here`.
+- Envie as alterações para o repositório remoto usando `git push origin nome-da-branch-aqui`.
 
-- Submit a pull request to the upstream repository.
+- Envie um pull request para o repositório upstream.
 
-- Title the pull request with a short description of the changes made and the issue or bug number associated with your change. For example, you can title an issue like so **"Added more log outputting to resolve #4352"**.
+- Dê um título ao pull request com uma breve descrição das alterações feitas e o número da issue ou bug associado à sua alteração. Por exemplo, você pode intitular uma issue assim **"Adicionada mais saída de log para resolver #4352"**.
 
-- In the description of the pull request, explain the changes that you made, any issues you think exist with the pull request you made, and any questions you have for the maintainer. It's OK if your pull request is not perfect (no pull request is), the reviewer will be able to help you fix any problems and improve it!
+- Na descrição do pull request, explique as alterações que você fez, quaisquer problemas que você acha que existem com o pull request que você fez e quaisquer dúvidas que você tenha para o mantenedor. Não tem problema se seu pull request não estiver perfeito (nenhum pull request é), o revisor poderá ajudá-lo a corrigir quaisquer problemas e melhorá-lo!
 
-- Wait for the pull request to be reviewed by a maintainer.
+- Aguarde o pull request ser revisado por um mantenedor.
 
-- Make changes to the pull request if the reviewing maintainer recommends them.
+- Faça alterações no pull request se o mantenedor revisor recomendar.
 
-- Celebrate your success after your pull request is merged!
+- Comemore seu sucesso após seu pull request ser mesclado!
 
-# Where can I go for help?
+# Onde posso buscar ajuda?
 
-If you need help, you can ask questions on our **discussions** tab.
+Se precisar de ajuda, você pode fazer perguntas em nossa aba de **discussões**.

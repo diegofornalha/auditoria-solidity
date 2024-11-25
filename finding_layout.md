@@ -1,9 +1,9 @@
-### [S-#] TITLE (Root Cause + Impact)
+### [S-#] TÍTULO (Causa Raiz + Impacto)
 
-**Description:** 
+**Descrição:**
 
-**Impact:** 
+**Impacto:**
 
-**Proof of Concept:**
+**Prova de Conceito:**
 
-**Recommended Mitigation:** 
+**Mitigação Recomendada:**

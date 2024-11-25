@@ -1,41 +1,40 @@
-# How to answer questions
+# Como responder perguntas
 
-Thank you for wanting to answer questions! This is how we grow as a community :)
+Obrigado por querer responder perguntas! É assim que crescemos como comunidade :)
 
-1. Make sure the question follows the "how-to-ask-a-good-question" guide
-2. Make sure your answer unblocks the user
-3. Remember, this is living documentation!
-4. Format your answers, like in the `how-to-ask-a-question` guide. 
+1. Certifique-se de que a pergunta segue o guia "como-fazer-uma-boa-pergunta"
+2. Certifique-se de que sua resposta desbloqueie o usuário
+3. Lembre-se, esta é uma documentação viva!
+4. Formate suas respostas, como no guia `como-fazer-uma-pergunta`.
 
+# 1. Certifique-se de que a pergunta segue o guia "como-fazer-uma-boa-pergunta"
 
-# 1. Make sure the question follows the "how-to-ask-a-good-question" guide
+Se a pergunta estiver mal formatada e você souber como reformatá-la, reformate-a e peça para que da próxima vez formatem seu código.
 
-If the question is poorly formatted and you know how to reformat it reformat it and ask them next time to format their code.
+Se a pergunta foi postada no lugar errado (como uma pergunta teórica postada no stackoverflow), avise gentilmente que está no lugar errado.
 
-If the question is posted in the wrong place (like a theoretical question posted on stackoverflow) kindly let them know that it's in the wrong place. 
+Se a pergunta já foi feita e respondida, responda com um link para a pergunta que já foi feita e respondida e pergunte se isso resolve o problema.
 
-If the question has already been asked and answered, answer with a link to the question that has already been asked and answered and ask if that solves the problem.
+Se o problema tem um título ruim, não faz sentido para os outros, etc, sinta-se à vontade para editar a pergunta para o que faz sentido se você puder entendê-la. Caso contrário, você pode responder dizendo "Não entendi muito bem o que você está perguntando, você poderia reformular sua pergunta seguindo o guia 'como fazer uma pergunta'?"
 
-If the problem has a poor title, doesn't make sense to others, etc, feel free to edit the question to what does if you can understand it. If not, you can answer saying "I don't quite understand what you're asking, could you reformat your question following the "how to ask a question" guide? 
+Se eles usaram screenshots, sinta-se à vontade para pedir que copiem e colem o código.
 
-If they used screenshots, feel free to ask them to copy-paste the code. 
+Ou, sinta-se à vontade para ignorar. Este é um fórum administrado pela comunidade e ninguém tem "direito a" respostas! Seja legal, seja respeitoso e divirta-se. Mas se você sabe como ajudar alguém, um pequeno "você poderia refatorar sua pergunta" pode ajudar muito!
 
-Or, feel free to ignore it. This is a community run forum and no one is "entitled to" answers! Be nice, be respectful, and have fun. But if you do know how to help someone, a little "could you please refactor your question" can go a long way!
+### Não se sinta obrigado a ajudar imediatamente se eles não estiverem fazendo perguntas bem formatadas. Faça-os fazer uma pergunta bem formatada primeiro antes de responder!
 
-### Don't feel obliged to help right away if they are not asking well-formatted questions. Make them ask a well-formatted question first before you answer!
+Mas não seja grosseiro sobre isso. Se eles só precisam de um pequeno ajuste na formatação, apenas ajuste a pergunta para eles.
 
-But don't be a jerk about it. If they just need a little formatting touch up, just touch up their question for them. 
+# 2. Certifique-se de que sua resposta os desbloqueie
 
-# 2. Make sure your answer unblocks them
+Muitas vezes, as pessoas farão perguntas onde a resposta pode ser X, mas elas estão tentando fazer Y. Tente antecipar o que as pessoas estão tentando fazer. Responda a pergunta pelo valor nominal e depois talvez dê mais informações sobre para onde ir em seguida.
 
-Often times, people will ask questions where the answer might be X, but they are trying to do Y. Try to anticipate what people are trying to do. Answer the question at face value, and then maybe give more information on where to go next. 
+Frequentemente, dar um resumo da sua resposta no topo com código que pode ser copiado e colado, e depois uma seção de "mais informações" é uma boa prática.
 
-Often, giving a summary of your answer at the top with copy pasteable code, and then a "more information" is a best practice. 
+# 3. Lembre-se que esta é uma documentação viva!
 
-# 3. Remember this is living documentation!
+Trate-a como tal. Volte e atualize as respostas se você as encontrar!
 
-Treat it as such. Go back and update answers if you find them!
+# 4. Formate suas respostas, como no guia `como-fazer-uma-pergunta`
 
-# 4. Format your answers, like in the `how-to-ask-a-question` guide. 
-
-See that guide for more information. 
+Veja esse guia para mais informações.

@@ -10,10 +10,10 @@
 [license-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
-<h1 align="center"> Smart Contract Auditing, Assembly, Security, and DeFi Ultimate Course
+<h1 align="center"> Curso Definitivo de Auditoria, Assembly, Segurança e DeFi em Smart Contracts
  </h1>
 
-<p align="center"><strong> Level up your career as a smart contract auditor writing secure and optimized smart contracts. 
+<p align="center"><strong> Eleve sua carreira como auditor de smart contracts escrevendo contratos seguros e otimizados.
 </strong></p>
 
 <div align="center">
@@ -32,506 +32,568 @@
     <br />
 </p>
 
-And [The Red Guild](https://theredguild.org/)
+E [The Red Guild](https://theredguild.org/)
 
 </div>
 
-Welcome to the repository for the Ultimate Smart Contract Auditing, Assembly, Security, and DeFi Course by Cyfrin Updraft and The Red Guild!
+Bem-vindo ao repositório do Curso Definitivo de Auditoria, Assembly, Segurança e DeFi em Smart Contracts da Cyfrin Updraft e The Red Guild!
 
-> [IMPORTANT!]
-> Course Link: https://updraft.cyfrin.io/courses/security
+> [IMPORTANTE!]
+> Link do Curso: https://updraft.cyfrin.io/courses/security
 
-This repository houses the written content of our courses, organized to facilitate easy access and contribution from our community.
-Please refer to this for an in-depth explanation of the content:
+Este repositório contém o conteúdo escrito dos nossos cursos, organizado para facilitar o acesso e contribuição da nossa comunidade.
+Por favor, consulte isto para uma explicação detalhada do conteúdo:
 
--   [Website](https://updraft.cyfrin.io/) - Join Cyfrin Updraft and enjoy 50+ hours of smart contract development courses
--   [Twitter](https://twitter.com/cyfrinupdraft) - Stay updated with the latest course releases
--   [LinkedIn](https://www.linkedin.com/school/cyfrin-updraft/) - Add Updraft to your learning experiences
--   [Discord](http://discord.gg/cyfrin) - Join a community of 3000+ developers and auditors
--   [Newsletter](https://www.cyfrin.io/newsletter) - Weekly security research tips and resources to level up your career
--   [Codehawks](https://www.codehawks.com/) - Smart contracts auditing competitions to help securing web3
+- [Website](https://updraft.cyfrin.io/) - Junte-se à Cyfrin Updraft e aproveite mais de 50 horas de cursos de desenvolvimento de smart contracts
+- [Twitter](https://twitter.com/cyfrinupdraft) - Fique atualizado com os últimos lançamentos de cursos
+- [LinkedIn](https://www.linkedin.com/school/cyfrin-updraft/) - Adicione a Updraft às suas experiências de aprendizado
+- [Discord](http://discord.gg/cyfrin) - Junte-se a uma comunidade de mais de 3000 desenvolvedores e auditores
+- [Newsletter](https://www.cyfrin.io/newsletter) - Dicas e recursos semanais de pesquisa em segurança para elevar sua carreira
+- [Codehawks](https://www.codehawks.com/) - Competições de auditoria de smart contracts para ajudar a proteger a web3
 
 </br>
 
 <br/>
 <p align="center">
 <a href="https://updraft.cyfrin.io/" target="_blank">
-<img src="./images/course-hero.jpg" width="500" alt="Smart Contract Security, Auditing, Assembly, and DeFi Ultimate Course">
+<img src="./images/course-hero.jpg" width="500" alt="Curso Definitivo de Segurança, Auditoria, Assembly e DeFi em Smart Contracts">
 </a>
 </p>
 <br/>
 
-# Table of Contents
+# Sumário
 
-_Note: If you're familiar with Patrick's previous courses, we have renamed "Lessons" to "Sections"_
-## Smart Contract Auditing, Assembly, Security, and DeFi Ultimate Course
+_Nota: Se você está familiarizado com os cursos anteriores do Patrick, renomeamos "Lessons" para "Sections"_
+
+## Curso Definitivo de Auditoria, Assembly, Segurança e DeFi em Smart Contracts
+
 <details>
-<summary>Smart Contract Auditing, Assembly, Security, and DeFi Ultimate Course</summary>
+<summary>Curso Definitivo de Auditoria, Assembly, Segurança e DeFi em Smart Contracts</summary>
 <ol>
-<li><a href="#smart-contract-auditing-assembly-security-and-defi-ultimate-course">Smart Contract Auditing, Assembly, Security, and DeFi Ultimate Course</a></li>
+<li><a href="#smart-contract-auditing-assembly-security-and-defi-ultimate-course">Curso Definitivo de Auditoria, Assembly, Segurança e DeFi em Smart Contracts</a></li>
 </ol>
 </details>
 <details>
-<summary>Table of Contents</summary>
+<summary>Sumário</summary>
 <ol>
-<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#table-of-contents">Sumário</a></li>
 </ol>
 </details>
 <details>
-<summary>Introduction, Resources, and Prerequisites</summary>
+<summary>Introdução, Recursos e Pré-requisitos</summary>
 <ol>
-<li><a href="#resources-for-this-course">Resources For This Course</a></li>
-<li><a href="#prerequisites">Prerequisites</a></li>
-<li><a href="#outcome">Outcome</a></li>
-<li><a href="#bonus-nfts">Bonus NFTs</a>
+<li><a href="#resources-for-this-course">Recursos Para Este Curso</a></li>
+<li><a href="#prerequisites">Pré-requisitos</a></li>
+<li><a href="#outcome">Resultado</a></li>
+<li><a href="#bonus-nfts">NFTs Bônus</a>
   <ul>
-    <li><a href="#important-notes-for-zksync">Important Notes for zkSync</a></li>
-    <li><a href="#bridging-to-zksync">Bridging to zkSync</a></li>
+    <li><a href="#important-notes-for-zksync">Notas Importantes para zkSync</a></li>
+    <li><a href="#bridging-to-zksync">Fazendo Bridge para zkSync</a></li>
   </ul>
 </li>
 </ol>
 </details>
 <details>
-<summary><a href="#curriculum">Curriculum</a></summary>
+<summary><a href="#curriculum">Grade Curricular</a></summary>
 <ol>
-<li><a href="#curriculum">Curriculum</a></li>
+<li><a href="#curriculum">Grade Curricular</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#-section-0-welcome-to-the-course">🤗 Section 0: Welcome to the Course</a></summary>
+<summary><a href="#-section-0-welcome-to-the-course">🤗 Seção 0: Bem-vindo ao Curso</a></summary>
 <ol>
-<li><a href="#welcome">Welcome</a></li>
-<li><a href="#why-security">Why Security?</a></li>
-<li><a href="#why-web3-is-so-important">Why Web3 is so important</a></li>
-<li><a href="#the-final-boss-codebase-youll-be-able-to-audit-this-at-the-end-of-this-course">The Final Boss Codebase, you'll be able to audit this at the end of this course</a></li>
-<li><a href="#best-practices-for-this-course">Best Practices for this course</a></li>
-<li><a href="#section-0-nft">Section 0 NFT</a></li>
+<li><a href="#welcome">Bem-vindo</a></li>
+<li><a href="#why-security">Por que Segurança?</a></li>
+<li><a href="#why-web3-is-so-important">Por que Web3 é tão importante</a></li>
+<li><a href="#the-final-boss-codebase-youll-be-able-to-audit-this-at-the-end-of-this-course">O Código do Chefe Final, você será capaz de auditá-lo ao final deste curso</a></li>
+<li><a href="#best-practices-for-this-course">Melhores Práticas para este curso</a></li>
+<li><a href="#section-0-nft">NFT da Seção 0</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#-section-1-review-dont-skip">🐸 Section 1: Review (Don't skip)</a></summary>
+<summary><a href="#-section-1-review-dont-skip">🐸 Seção 1: Revisão (Não pule)</a></summary>
 <ol>
-<li><a href="#section-1-nft">Section 1 NFT</a></li>
+<li><a href="#section-1-nft">NFT da Seção 1</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#-section-2-what-is-a-smart-contract-audit-security-review">❓ Section 2: What is a smart contract audit (Security Review)?</a></summary>
+<summary><a href="#-section-2-what-is-a-smart-contract-audit-security-review">❓ Seção 2: O que é uma auditoria de smart contract (Revisão de Segurança)?</a></summary>
 <ol>
-<li><a href="#what-is-a-security-reviewsmart-contract-audit">What is a security review/smart contract audit?</a></li>
-<li><a href="#smart-contract-development-life-cycle">Smart Contract Development Life Cycle</a></li>
-<li><a href="#top-smart-contract-auditors-subjective">Top Smart Contract Auditors (Subjective!)</a></li>
-<li><a href="#tooling">Tooling</a></li>
-<li><a href="#audit-readiness">Audit Readiness</a></li>
-<li><a href="#attacker-vs-defender-mindset">Attacker vs. Defender mindset</a></li>
-<li><a href="#top-attack-vectors">Top Attack Vectors</a></li>
-<li><a href="#section-2-nft">Section 2 NFT</a></li>
+<li><a href="#what-is-a-security-reviewsmart-contract-audit">O que é uma revisão de segurança/auditoria de smart contract?</a></li>
+<li><a href="#smart-contract-development-life-cycle">Ciclo de Vida do Desenvolvimento de Smart Contract</a></li>
+<li><a href="#top-smart-contract-auditors-subjective">Principais Auditores de Smart Contract (Subjetivo!)</a></li>
+<li><a href="#tooling">Ferramentas</a></li>
+<li><a href="#audit-readiness">Preparação para Auditoria</a></li>
+<li><a href="#attacker-vs-defender-mindset">Mentalidade de Atacante vs. Defensor</a></li>
+<li><a href="#top-attack-vectors">Principais Vetores de Ataque</a></li>
+<li><a href="#section-2-nft">NFT da Seção 2</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#️-section-3-your-first-audit-security-review--passwordstore-audit">⛳️ Section 3: Your first audit | PasswordStore Audit</a></summary>
+<summary><a href="#️-section-3-your-first-audit-security-review--passwordstore-audit">⛳️ Seção 3: Sua primeira auditoria | Auditoria PasswordStore</a></summary>
 <ol>
-<li><a href="#security-review--audit">Security Review &gt; Audit</a></li>
-<li><a href="#the-tincho">"The Tincho"</a></li>
+<li><a href="#security-review--audit">Revisão de Segurança > Auditoria</a></li>
+<li><a href="#the-tincho">"O Tincho"</a></li>
 <li><a href="#exploits">Exploits</a></li>
-<li><a href="#exploits-access-controls">Exploits: Access Controls</a></li>
-<li><a href="#writing-your-first-finding">Writing your first finding</a></li>
-<li><a href="#exploits-private-data">Exploits: Private Data</a></li>
-<li><a href="#your-first-report">Your first report</a></li>
-<li><a href="#section-3-nft">Section 3 NFT</a></li>
+<li><a href="#exploits-access-controls">Exploits: Controles de Acesso</a></li>
+<li><a href="#writing-your-first-finding">Escrevendo seu primeiro achado</a></li>
+<li><a href="#exploits-private-data">Exploits: Dados Privados</a></li>
+<li><a href="#your-first-report">Seu primeiro relatório</a></li>
+<li><a href="#section-3-nft">NFT da Seção 3</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#-section-4-manual--static-analysis--puppy-raffle-audit">🐶 Section 4: Manual & Static Analysis | Puppy Raffle Audit</summary>
+<summary><a href="#-section-4-manual--static-analysis--puppy-raffle-audit">🐶 Seção 4: Análise Manual & Estática | Auditoria Puppy Raffle</summary>
 <ol>
-<li><a href="#tooling-static-analysis">Tooling: Static Analysis</a></li>
-<li><a href="#scoping--reconnaissance-puppy-raffle">Scoping & Reconnaissance: Puppy Raffle</a></li>
-<li><a href="#exploits-reentrancy">Exploits: Reentrancy</a></li>
-<li><a href="#exploits-weak-rng">Exploits: Weak RNG</a></li>
-<li><a href="#exploits-arithmetic-issues">Exploits: Arithmetic issues</a></li>
-<li><a href="#exploits-dos-denial-of-service">Exploits: DoS (Denial of service)</a></li>
-<li><a href="#exploits-poor-eth-handling">Exploits: Poor ETH Handling</a></li>
-<li><a href="#informational-findings">Informational Findings</a></li>
-<li><a href="#gas-audits">Gas Audits</a></li>
-<li><a href="#code-maturity">Code Maturity</a></li>
-<li><a href="#writing-the-report-puppy-raffle">Writing the report: Puppy Raffle</a></li>
-<li><a href="#section-4-nft">Section 4 NFT</a></li>
+<li><a href="#tooling-static-analysis">Ferramentas: Análise Estática</a></li>
+<li><a href="#scoping--reconnaissance-puppy-raffle">Escopo & Reconhecimento: Puppy Raffle</a></li>
+<li><a href="#exploits-reentrancy">Exploits: Reentrância</a></li>
+<li><a href="#exploits-weak-rng">Exploits: RNG Fraco</a></li>
+<li><a href="#exploits-arithmetic-issues">Exploits: Problemas Aritméticos</a></li>
+<li><a href="#exploits-dos-denial-of-service">Exploits: DoS (Negação de serviço)</a></li>
+<li><a href="#exploits-poor-eth-handling">Exploits: Manipulação Inadequada de ETH</a></li>
+<li><a href="#informational-findings">Achados Informativos</a></li>
+<li><a href="#gas-audits">Auditorias de Gas</a></li>
+<li><a href="#code-maturity">Maturidade do Código</a></li>
+<li><a href="#writing-the-report-puppy-raffle">Escrevendo o relatório: Puppy Raffle</a></li>
+<li><a href="#section-4-nft">NFT da Seção 4</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#-section-5-invariants--intro-to-defi--tswap-audit">🔄 Section 5: Invariants & Intro to DeFi | TSwap Audit</a></summary>
+<summary><a href="#-section-5-invariants--intro-to-defi--tswap-audit">🔄 Seção 5: Invariantes & Introdução ao DeFi | Auditoria TSwap</a></summary>
 <ol>
-<li><a href="#scoping--reconnaissance-t-swap">Scoping & Reconnaissance: T-Swap</a></li>
-<li><a href="#intro-to-defionchain-finance">Intro to DeFi/OnChain Finance</a></li>
-<li><a href="#tooling-t-swap">Tooling: T-Swap</a></li>
-<li><a href="#exploits-weird-erc20s">Exploits: Weird ERC20s</a></li>
-<li><a href="#exploits-core-invariant-breaking">Exploits: Core Invariant breaking</a></li>
-<li><a href="#design-patterns-t-swap">Design Patterns: T-Swap</a></li>
-<li><a href="#section-5-nft">Section 5 NFT</a></li>
+<li><a href="#scoping--reconnaissance-t-swap">Escopo & Reconhecimento: T-Swap</a></li>
+<li><a href="#intro-to-defionchain-finance">Introdução ao DeFi/Finanças OnChain</a></li>
+<li><a href="#tooling-t-swap">Ferramentas: T-Swap</a></li>
+<li><a href="#exploits-weird-erc20s">Exploits: ERC20s Estranhos</a></li>
+<li><a href="#exploits-core-invariant-breaking">Exploits: Quebra de Invariante Principal</a></li>
+<li><a href="#design-patterns-t-swap">Padrões de Design: T-Swap</a></li>
+<li><a href="#section-5-nft">NFT da Seção 5</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#️-section-6-centralization-proxies-and-oracles--thunder-loan-audit">🌩️ Section 6: Centralization, Proxies, and Oracles | Thunder Loan Audit</a></summary>
+<summary><a href="#️-section-6-centralization-proxies-and-oracles--thunder-loan-audit">🌩️ Seção 6: Centralização, Proxies e Oráculos | Auditoria Thunder Loan</a></summary>
 <ol>
-<li><a href="#️-section-6-centralization-proxies-and-oracles--thunder-loan-audit">Section 6: Centralization, Proxies, and Oracles | Thunder Loan Audit</a></li>
-<li><a href="#scoping--reconnaissance-thunder-loan">Scoping & Reconnaissance: Thunder Loan</a>
+<li><a href="#️-section-6-centralization-proxies-and-oracles--thunder-loan-audit">Seção 6: Centralização, Proxies e Oráculos | Auditoria Thunder Loan</a></li>
+<li><a href="#scoping--reconnaissance-thunder-loan">Escopo & Reconhecimento: Thunder Loan</a>
   <ul>
-    <li><a href="#defi-borrowing--lending">DeFi: Borrowing & Lending</a></li>
-    <li><a href="#malicious-scope">Malicious Scope</a></li>
+    <li><a href="#defi-borrowing--lending">DeFi: Empréstimo & Empréstimo</a></li>
+    <li><a href="#malicious-scope">Escopo Malicioso</a></li>
   </ul>
 </li>
-<li><a href="#tooling-thunder-loan">Tooling: Thunder Loan</a>
+<li><a href="#tooling-thunder-loan">Ferramentas: Thunder Loan</a>
   <ul>
-    <li><a href="#exploits-failure-to-initialize">Exploits: Failure to initialize</a></li>
-    <li><a href="#exploits-storage-collision">Exploits: Storage collision</a></li>
-    <li><a href="#exploits-centralization">Exploits: Centralization</a></li>
-    <li><a href="#exploits-missing-events">Exploits: Missing events</a></li>
-    <li><a href="#exploits-bad-upgrade">Exploits: Bad Upgrade</a></li>
-    <li><a href="#exploits-oracle--price-manipulation">Exploits: Oracle & Price Manipulation</a></li>
+    <li><a href="#exploits-failure-to-initialize">Exploits: Falha na inicialização</a></li>
+    <li><a href="#exploits-storage-collision">Exploits: Colisão de armazenamento</a></li>
+    <li><a href="#exploits-centralization">Exploits: Centralização</a></li>
+    <li><a href="#exploits-missing-events">Exploits: Eventos ausentes</a></li>
+    <li><a href="#exploits-bad-upgrade">Exploits: Atualização ruim</a></li>
+    <li><a href="#exploits-oracle--price-manipulation">Exploits: Manipulação de Oráculo & Preço</a></li>
   </ul>
 </li>
-<li><a href="#design-patterns-thunder-loan">Design Patterns: Thunder Loan</a></li>
-<li><a href="#section-6-nft">Section 6 NFT</a></li>
+<li><a href="#design-patterns-thunder-loan">Padrões de Design: Thunder Loan</a></li>
+<li><a href="#section-6-nft">NFT da Seção 6</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#-section-7-bridges-chains-signatures-intro-to-yulassembly--bridge-boss-audit">🌉 Section 7: Bridges, Chains, Signatures, Intro to Yul/Assembly | Bridge Boss Audit</a></summary>
+<summary><a href="#-section-7-bridges-chains-signatures-intro-to-yulassembly--bridge-boss-audit">🌉 Seção 7: Bridges, Chains, Assinaturas, Introdução ao Yul/Assembly | Auditoria Bridge Boss</a></summary>
 <ol>
-<li><a href="#-section-7-bridges-chains-signatures-intro-to-yulassembly--bridge-boss-audit">Section 7: Bridges, Chains, Signatures, Intro to Yul/Assembly | Bridge Boss Audit</a></li>
-<li><a href="#tooling-boss-bridge">Tooling: Boss Bridge</a></li>
-<li><a href="#scoping--reconnaissance-boss-bridge">Scoping & Reconnaissance: Boss Bridge</a>
+<li><a href="#-section-7-bridges-chains-signatures-intro-to-yulassembly--bridge-boss-audit">Seção 7: Bridges, Chains, Assinaturas, Introdução ao Yul/Assembly | Auditoria Bridge Boss</a></li>
+<li><a href="#tooling-boss-bridge">Ferramentas: Boss Bridge</a></li>
+<li><a href="#scoping--reconnaissance-boss-bridge">Escopo & Reconhecimento: Boss Bridge</a>
   <ul>
-    <li><a href="#exploits-opcode-support">Exploits: Opcode Support</a></li>
-    <li><a href="#exploits-signature-replay">Exploits: Signature Replay</a></li>
-    <li><a href="#exploits-erc20-contract-approval">Exploits: ERC20 Contract Approval</a></li>
-    <li><a href="#exploits-unlimited-minting">Exploits: Unlimited Minting</a></li>
+    <li><a href="#exploits-opcode-support">Exploits: Suporte a Opcode</a></li>
+    <li><a href="#exploits-signature-replay">Exploits: Replay de Assinatura</a></li>
+    <li><a href="#exploits-erc20-contract-approval">Exploits: Aprovação de Contrato ERC20</a></li>
+    <li><a href="#exploits-unlimited-minting">Exploits: Mintagem Ilimitada</a></li>
   </ul>
 </li>
-<li><a href="#bridge-hacks">Bridge Hacks</a>
+<li><a href="#bridge-hacks">Hacks de Bridge</a>
   <ul>
-    <li><a href="#writing-the-report-boss-bridge">Writing the report: Boss Bridge</a></li>
+    <li><a href="#writing-the-report-boss-bridge">Escrevendo o relatório: Boss Bridge</a></li>
   </ul>
 </li>
-<li><a href="#design-patterns-boss-bridge">Design Patterns: Boss Bridge</a></li>
-<li><a href="#section-7-nft">Section 7 NFT</a></li>
+<li><a href="#design-patterns-boss-bridge">Padrões de Design: Boss Bridge</a></li>
+<li><a href="#section-7-nft">NFT da Seção 7</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#section-8-the-final-boss-audit-mev-nodes--daos--vault-guardians-audit">🛡️ Section 8: (THE FINAL BOSS AUDIT) MEV, Nodes, & DAOs | Vault Guardians Audit</a></summary>
+<summary><a href="#section-8-the-final-boss-audit-mev-nodes--daos--vault-guardians-audit">🛡️ Seção 8: (A AUDITORIA DO CHEFE FINAL) MEV, Nodes & DAOs | Auditoria Vault Guardians</a></summary>
 <ol>
-<li><a href="#section-8-the-final-boss-audit-mev-nodes--daos--vault-guardians-audit">Section 8: (THE FINAL BOSS AUDIT) MEV, Nodes, & DAOs | Vault Guardians Audit</a></li>
-<li><a href="#concepts-vault-guardians">Concepts: Vault Guardians</a>
+<li><a href="#section-8-the-final-boss-audit-mev-nodes--daos--vault-guardians-audit">Seção 8: (A AUDITORIA DO CHEFE FINAL) MEV, Nodes & DAOs | Auditoria Vault Guardians</a></li>
+<li><a href="#concepts-vault-guardians">Conceitos: Vault Guardians</a>
   <ul>
-    <li><a href="#exploits-governance-attack">Exploits: Governance Attack</a></li>
-    <li><a href="#exploits-blocktimestamp-can-be-bad">Exploits: `block.timestamp` can be bad</a></li>
+    <li><a href="#exploits-governance-attack">Exploits: Ataque de Governança</a></li>
+    <li><a href="#exploits-blocktimestamp-can-be-bad">Exploits: `block.timestamp` pode ser ruim</a></li>
   </ul>
 </li>
-<li><a href="#introduction-to-mev">Introduction to MEV</a>
+<li><a href="#introduction-to-mev">Introdução ao MEV</a>
   <ul>
-    <li><a href="#exploits-slippage-protection">Exploits: Slippage Protection</a></li>
+    <li><a href="#exploits-slippage-protection">Exploits: Proteção contra Slippage</a></li>
   </ul>
 </li>
-<li><a href="#design-patterns-vault-guardians">Design Patterns: Vault Guardians</a></li>
-<li><a href="#section-8-nft">Section 8 NFT</a></li>
+<li><a href="#design-patterns-vault-guardians">Padrões de Design: Vault Guardians</a></li>
+<li><a href="#section-8-nft">NFT da Seção 8</a></li>
 </ol>
 </details>
 <details>
-<summary>First CodeHawks Competitive Audit</summary>
+<summary>Primeira Auditoria Competitiva CodeHawks</summary>
 <ol>
-<li><a href="#first-codehawks-competitive-audit">First CodeHawks Competitive Audit</a></li>
+<li><a href="#first-codehawks-competitive-audit">Primeira Auditoria Competitiva CodeHawks</a></li>
 </ol>
 </details>
 
 <details>
-<summary>Congratulations</summary>
+<summary>Parabéns</summary>
 <ol>
-<li><a href="#congratulations">Congratulations</a></li>
-<li><a href="#where-do-i-go-now">Where do I go now?</a></li>
-<li><a href="#learning-more">Learning More</a></li>
+<li><a href="#congratulations">Parabéns</a></li>
+<li><a href="#where-do-i-go-now">Para onde vou agora?</a></li>
+<li><a href="#learning-more">Aprendendo Mais</a></li>
 </ol>
 </details>
 <details>
-<summary>Thank you</summary>
+<summary>Obrigado</summary>
 <ol>
-<li><a href="#thank-you">Thank you</a></li>
-<li><a href="#sponsors">Sponsors</a></li>
-<li><a href="#lead-lecturers--code-builders">Lead Lecturers / Code Builders</a></li>
-<li><a href="#guest-lecturers">Guest Lecturers</a></li>
-<li><a href="#special-thanks">Special thanks</a></li>
-<li><a href="#more-security-stuff">More Security Stuff</a></li>
-<li><a href="#huge-extra-thank-you">Huge Extra Thank YOU</a></li>
+<li><a href="#thank-you">Obrigado</a></li>
+<li><a href="#sponsors">Patrocinadores</a></li>
+<li><a href="#lead-lecturers--code-builders">Professores Principais / Construtores de Código</a></li>
+<li><a href="#guest-lecturers">Professores Convidados</a></li>
+<li><a href="#special-thanks">Agradecimentos Especiais</a></li>
+<li><a href="#more-security-stuff">Mais Conteúdo de Segurança</a></li>
+<li><a href="#huge-extra-thank-you">Enorme Agradecimento Extra</a></li>
 </ol>
 </details>
 
-# Introduction, Resources, and Prerequisites
+# Introdução, Recursos e Pré-requisitos
 
-Head over to the [Cyfrin Updraft](https://updraft.cyfrin.io/) website to get the best learning experience!
+Acesse o site [Cyfrin Updraft](https://updraft.cyfrin.io/) para ter a melhor experiência de aprendizado!
 
-Link to course: https://updraft.cyfrin.io/courses/security
+Link para o curso: https://updraft.cyfrin.io/courses/security
 
-> ⚠️ All code associated with this course is for demo purposes only. They have been audited, but we do not recommend them for production use and should be used at your own risk. 
+> ⚠️ Todo o código associado a este curso é apenas para fins de demonstração. Eles foram auditados, mas não os recomendamos para uso em produção e devem ser usados por sua própria conta e risco.
 
-## Resources For This Course
+## Recursos Para Este Curso
 
-Join [Cyfrin Updraft](https://updraft.cyfrin.io/) for the best learning experience!
+Junte-se ao [Cyfrin Updraft](https://updraft.cyfrin.io/) para a melhor experiência de aprendizado!
 
-- AI Frens
+- Amigos IA
   - [ChatGPT](https://chat.openai.com/)
-      - Just know that it will often get things wrong, but it's very fast!
+    - Apenas saiba que frequentemente ele cometerá erros, mas é muito rápido!
   - [Phind](https://www.phind.com/)
-      - Like ChatGPT, but it searches the web
+    - Como o ChatGPT, mas pesquisa na web
   - [Bard](https://bard.google.com/)
-  - [Other AI extensions](https://twitter.com/aisolopreneur/status/1654823630155464704?s=42&t=-pu_sCYtfrfPJU7OXfifrQ)
-- Github Discussions 
-    -   Ask questions and chat about the course here!
--   [Stack Exchange Ethereum](https://ethereum.stackexchange.com/)
-    -   Great place for asking technical questions about Ethereum
--   [Peeranha](https://peeranha.io/)
-    -   Decentralized Stack Exchange!
--   [Cookbook](./cookbook-listings.md)
-    -   A smart contract registry and co-pilot
+  - [Outras extensões de IA](https://twitter.com/aisolopreneur/status/1654823630155464704?s=42&t=-pu_sCYtfrfPJU7OXfifrQ)
+- Discussões do Github
+  - Faça perguntas e converse sobre o curso aqui!
+- [Stack Exchange Ethereum](https://ethereum.stackexchange.com/)
+  - Ótimo lugar para fazer perguntas técnicas sobre Ethereum
+- [Peeranha](https://peeranha.io/)
+  - Stack Exchange Descentralizado!
+- [Cookbook](./cookbook-listings.md)
+  - Um registro de smart contracts e co-piloto
 
-### Exploit Resources 
+### Recursos de Exploit
 
 - [SC Exploits Minimized](https://github.com/Cyfrin/sc-exploits-minimized)
 
-### Challenge Contracts Registry
+### Registro de Contratos de Desafio
 
-- [Challenge Contracts (zkSync)](https://explorer.zksync.io/address/0x176bB45B13AA90D2CD313d526F14a2F4C6583495)
-- [Challenge Contracts (zkSync Sepolia)](https://sepolia.explorer.zksync.io/address/0x9F2099521c7116E251d3847837d22EC7D172f04B)
-- [Challenge Contracts (Sepolia)](https://sepolia.etherscan.io/token/0x31801c3e09708549c1b2c9e1cfbf001399a1b9fa#code)
+- [Contratos de Desafio (zkSync)](https://explorer.zksync.io/address/0x176bB45B13AA90D2CD313d526F14a2F4C6583495)
+- [Contratos de Desafio (zkSync Sepolia)](https://sepolia.explorer.zksync.io/address/0x9F2099521c7116E251d3847837d22EC7D172f04B)
+- [Contratos de Desafio (Sepolia)](https://sepolia.etherscan.io/token/0x31801c3e09708549c1b2c9e1cfbf001399a1b9fa#code)
 
-## Prerequisites
-An intermediate understanding of solidity. You don't need to be a pro, but you should be familiar with:
+## Pré-requisitos
 
-* Blockchain basics (transactions, blocks, decentralization, etc)
-* Running a smart contract test suite (hardhat, foundry, truffle, etc)
-* Solidity basics (variables, functions, structs, etc)
+Um entendimento intermediário de solidity. Você não precisa ser um profissional, mas deve estar familiarizado com:
 
-Here are some resources to get you up to speed with the prerequisites:
+- Fundamentos de blockchain (transações, blocos, descentralização, etc)
+- Executando uma suíte de testes de smart contract (hardhat, foundry, truffle, etc)
+- Fundamentos de Solidity (variáveis, funções, structs, etc)
 
-* [Full Foundry Course](https://www.youtube.com/watch?v=umepbfKp5rI): This will give you every single prerequisite
-* [Speed Run Ethereum](https://speedrunethereum.com/): This will give you most of what you need. But you’ll need a little extra time on invariant tests, using foundry, and DeFi/OnChain Finance. 
+Aqui estão alguns recursos para você se atualizar com os pré-requisitos:
 
-### Prerequisite tools
+- [Curso Completo de Foundry](https://www.youtube.com/watch?v=umepbfKp5rI): Isso lhe dará todos os pré-requisitos
+- [Speed Run Ethereum](https://speedrunethereum.com/): Isso lhe dará a maior parte do que você precisa. Mas você precisará de um pouco mais de tempo em testes invariantes, usando foundry e DeFi/Finanças OnChain.
+
+### Ferramentas de pré-requisito
+
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [foundry](https://getfoundry.sh/)
-- [VSCode or other text editor](https://code.visualstudio.com/)
-- [Understand Markdown syntax](https://www.markdownguide.org/basic-syntax/)
-- [ChatGPT or other AI assistant](https://chat.openai.com/chat)
+- [VSCode ou outro editor de texto](https://code.visualstudio.com/)
+- [Entender sintaxe Markdown](https://www.markdownguide.org/basic-syntax/)
+- [ChatGPT ou outro assistente de IA](https://chat.openai.com/chat)
 
-## Outcome
-* Have the foundational skills to become a professional smart contract auditor
-* Speak, interact, and contribute to the web3 security community
-* Compete in web3 competitive audits
-* Compete in web3 bug bounties
-* Start a career as an independent auditor
-* Become a top 1% smart contract developer
+## Resultado
 
-## Bonus NFTs
-- [You can find them on zkSync here](https://explorer.zksync.io/address/0x176bB45B13AA90D2CD313d526F14a2F4C6583495)
-- It's just numbers 0 -> 8
+- Ter as habilidades fundamentais para se tornar um auditor profissional de smart contracts
+- Falar, interagir e contribuir com a comunidade de segurança web3
+- Competir em auditorias competitivas web3
+- Competir em bug bounties web3
+- Iniciar uma carreira como auditor independente
+- Se tornar um desenvolvedor de smart contracts top 1%
 
-### Important Notes for zkSync
-IF YOU DECIDE TO MINT THE REAL NFT: 
-1. We didn't audit/security review the NFT, so if you want to make sure you'll be safe, interact with the contract using a burner wallet (a wallet with very little money that you don't use for anything else)
-   1. In fact... Get good at interacting with wallets from a burner wallet
-2. Read my [Tweet thread on basic wallet safety](https://twitter.com/PatrickAlphaC/status/1663936101650685954)
+## NFTs Bônus
 
-### Bridging to zkSync
-1. We didn't show you how to bring ETH -> zkSync, but the process would be:
-   1. Buy ETH (On an exchange like [Coinbase](https://www.coinbase.com/home) or [Kraken](https://www.kraken.com/))
-2. Send ETH -> one of your wallets like:
+- [Você pode encontrá-los no zkSync aqui](https://explorer.zksync.io/address/0x176bB45B13AA90D2CD313d526F14a2F4C6583495)
+- São apenas números de 0 -> 8
+
+### Notas Importantes para zkSync
+
+SE VOCÊ DECIDIR MINTAR O NFT REAL:
+
+1. Não auditamos/revisamos a segurança do NFT, então se você quiser ter certeza de que estará seguro, interaja com o contrato usando uma carteira descartável (uma carteira com muito pouco dinheiro que você não usa para mais nada)
+   1. Na verdade... Acostume-se a interagir com carteiras a partir de uma carteira descartável
+2. Leia minha [thread no Twitter sobre segurança básica de carteira](https://twitter.com/PatrickAlphaC/status/1663936101650685954)
+
+### Fazendo Bridge para zkSync
+
+1. Não mostramos como levar ETH -> zkSync, mas o processo seria:
+   1. Comprar ETH (Em uma exchange como [Coinbase](https://www.coinbase.com/home) ou [Kraken](https://www.kraken.com/))
+2. Enviar ETH -> uma de suas carteiras como:
    1. [Safe (Multi-Sig)](https://safe.global/)
    2. [Metamask](https://metamask.io/)
    3. [Frame](https://frame.sh/)
    4. [Rainbow](https://rainbow.me/)
    5. [Argent](https://www.argent.xyz/)
    6. [Coinbase Wallet](https://www.coinbase.com/wallet)
-3. Use the [zkSync Bridge](https://portal.zksync.io/bridge/)
+3. Usar a [Bridge zkSync](https://portal.zksync.io/bridge/)
 
-# Curriculum
+# Grade Curricular
 
-# 🤗 Section 0: Welcome to the Course
+# 🤗 Seção 0: Bem-vindo ao Curso
 
-*Do not skip this section!*
+_Não pule esta seção!_
 
-## Welcome
-## Why Web3 Security?
-- Web3 is important
-  - Permissionless finance
-  - Unbreakable promises
-- Web3 security is subpar right now
-    - [Rekt Leaderboard](https://rekt.news/leaderboard/)
-    - [$1B in 2023](https://www.theblock.co/post/248550/web3-losses-exceed-1-billion-in-2023-base-exploits) (so far)
-    - Web3 vs Web2 hacks. Web2 is mostly PII theft, where Web3 hacks result in irrevocable losses of funds.
-    - Bad actors in the space. Lone wolf hackers vs. well funded, persistent nation state actors (e.g. NK).
-- Career opportunities
-    - Top 1% Developer
-    - Private Audits
-      - [Cyfrin](https://www.cyfrin.io/)
-      - [Trail Of Bits](https://www.trailofbits.com/)
-      - [Independent Security Researcher](https://www.codehawks.com/leaderboard)
-    - Competitive Audits
-      - [CodeHawks](https://www.codehawks.com/)
-      - [Code4rena](https://code4rena.com/)
-    - Bug Bounties
-      - [$2.2M Payout](https://www.youtube.com/watch?v=sgHHbWvWj9A)
-      - [Immunefi](https://immunefi.com/)
-      - [Hats Finance](https://hats.finance/)
-    - Future: 
-        - Incident Responders
-        - On-chain investigators
-        - More…
-## Why Web3 is so important
-  - Rebuild trust in the ecosystem.   
-  - Wild West image to the outsiders
+## Bem-vindo
 
-- [Pick a class](https://github.com/devtooligan/etherrealms-player-class-guide)
+## Por que Segurança Web3?
 
-## The Final Boss Codebase, you'll be able to audit this at the end of this course
+- Web3 é importante
+  - Finanças sem permissão
+  - Promessas inquebráveis
+- A segurança Web3 está abaixo do ideal agora
+  - [Placar Rekt](https://rekt.news/leaderboard/)
+  - [$1B em 2023](https://www.theblock.co/post/248550/web3-losses-exceed-1-billion-in-2023-base-exploits) (até agora)
+  - Hacks Web3 vs Web2. Web2 é principalmente roubo de PII, onde hacks Web3 resultam em perdas irrevogáveis de fundos.
+  - Atores maliciosos no espaço. Hackers solitários vs. atores estatais persistentes bem financiados (por exemplo, Coreia do Norte).
+- Oportunidades de carreira
+  - Desenvolvedor Top 1%
+  - Auditorias Privadas
+    - [Cyfrin](https://www.cyfrin.io/)
+    - [Trail Of Bits](https://www.trailofbits.com/)
+    - [Pesquisador de Segurança Independente](https://www.codehawks.com/leaderboard)
+  - Auditorias Competitivas
+    - [CodeHawks](https://www.codehawks.com/)
+    - [Code4rena](https://code4rena.com/)
+  - Bug Bounties
+    - [$2.2M de Pagamento](https://www.youtube.com/watch?v=sgHHbWvWj9A)
+    - [Immunefi](https://immunefi.com/)
+    - [Hats Finance](https://hats.finance/)
+  - Futuro:
+    - Respondedores a Incidentes
+    - Investigadores on-chain
+    - Mais…
+
+## Por que Web3 é tão importante
+
+- Reconstruir a confiança no ecossistema.
+- Imagem de Faroeste para os outsiders
+
+- [Escolha uma classe](https://github.com/devtooligan/etherrealms-player-class-guide)
+
+## O Código do Chefe Final, você será capaz de auditá-lo ao final deste curso
+
 - [Vault Guardians](https://github.com/Cyfrin/8-vault-guardians-audit)
 
-## Best Practices for this course
-  - Register for [Cyfrin Updraft](https://updraft.cyfrin.io/)
-    - USE THIS SITE!!! It's specifically made to make learning easier
-  - **Follow the repository:** While going through the course be 100% certain to follow along with the github repository. If you run into in an issue check the chronological-updates in the repo.
-  - **Be Active in the community:** Ask questions and engage with other developers going through the course in the discussions tab, be sure to go and say hello or gm! This space is different from the other industries, you don't have to be secretive; communicate, network and learn with others :)
-  - **Learn at your own pace:** It doesn't matter if it takes you a day, a week, a month or even a year. Progress >>> Perfection
-  - **Take Breaks:** You will exhaust your mind and recall less if you go all out and watch the entire course in one sitting. 
-    **Suggested Strategy** every 25 minutes take a 5 min break, and every 2 hours take a longer 30 min break
-  - **Refer to Documentation:** Things are constantly being updated, so whenever Patrick opens up some documentation, open it your end and maybe even have the code sample next to you.
-  - **Use ChatGPT and/or the course chat**
+## Melhores Práticas para este curso
 
-And finally, by embarking on this journey, you are now a "Security Researcher", not an "Auditor". The key word is "Researcher", so we will go over strategies for continued learning so you can stay on top of your game. 
+- Registre-se no [Cyfrin Updraft](https://updraft.cyfrin.io/)
+  - USE ESTE SITE!!! Foi feito especificamente para facilitar o aprendizado
+- **Siga o repositório:** Durante o curso, certifique-se 100% de seguir junto com o repositório github. Se você encontrar algum problema, verifique as atualizações cronológicas no repositório.
+- **Seja Ativo na comunidade:** Faça perguntas e interaja com outros desenvolvedores que estão fazendo o curso na aba de discussões, certifique-se de ir lá e dizer olá ou gm! Este espaço é diferente das outras indústrias, você não precisa ser secretivo; comunique-se, faça networking e aprenda com os outros :)
+- **Aprenda no seu próprio ritmo:** Não importa se leva um dia, uma semana, um mês ou até um ano. Progresso >>> Perfeição
+- **Faça Pausas:** Você vai esgotar sua mente e lembrar menos se assistir todo o curso de uma vez.
+  **Estratégia Sugerida** a cada 25 minutos faça uma pausa de 5 minutos, e a cada 2 horas faça uma pausa mais longa de 30 minutos
+- **Consulte a Documentação:** As coisas estão constantemente sendo atualizadas, então sempre que Patrick abrir alguma documentação, abra do seu lado e talvez até tenha o exemplo de código ao seu lado.
+- **Use ChatGPT e/ou o chat do curso**
+
+E finalmente, ao embarcar nesta jornada, você agora é um "Pesquisador de Segurança", não um "Auditor". A palavra-chave é "Pesquisador", então vamos passar por estratégias para aprendizado contínuo para que você possa se manter no topo do seu jogo.
+
+🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯
+
+## Melhores Práticas para este curso
+
+- Registre-se no [Cyfrin Updraft](https://updraft.cyfrin.io/)
+  - USE ESTE SITE!!! Foi feito especificamente para facilitar o aprendizado
+- **Siga o repositório:** Durante o curso, certifique-se 100% de seguir junto com o repositório github. Se você encontrar algum problema, verifique as atualizações cronológicas no repositório.
+- **Seja Ativo na comunidade:** Faça perguntas e interaja com outros desenvolvedores que estão fazendo o curso na aba de discussões, certifique-se de ir lá e dizer olá ou gm! Este espaço é diferente das outras indústrias, você não precisa ser secretivo; comunique-se, faça networking e aprenda com os outros :)
+- **Aprenda no seu próprio ritmo:** Não importa se leva um dia, uma semana, um mês ou até um ano. Progresso >>> Perfeição
+- **Faça Pausas:** Você vai esgotar sua mente e lembrar menos se assistir todo o curso de uma vez.
+  **Estratégia Sugerida** a cada 25 minutos faça uma pausa de 5 minutos, e a cada 2 horas faça uma pausa mais longa de 30 minutos
+- **Consulte a Documentação:** As coisas estão constantemente sendo atualizadas, então sempre que Patrick abrir alguma documentação, abra do seu lado e talvez até tenha o exemplo de código ao seu lado.
+- **Use ChatGPT e/ou o chat do curso**
+
+E finalmente, ao embarcar nesta jornada, você agora é um "Pesquisador de Segurança", não um "Auditor". A palavra-chave é "Pesquisador", então vamos passar por estratégias para aprendizado contínuo para que você possa se manter no topo do seu jogo.
 
 🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯
 
-🎯 Exercise: Write *yourself* a message about why you want this
-  - This will be important for when things get hard
-  - Is it money? Save web3? Become someone? Write down as many reasons as possible. 
-### Section 0 NFT
-- [Welcome! (zkSync)](https://explorer.zksync.io/address/0x096f1835070EfCC3C53FFBA41C23cfD087e85b51)
-- [Welcome! (Sepolia)](https://sepolia.etherscan.io/address/0x39338138414df90ec67dc2ee046ab78bcd4f56d9)
+🎯 Exercício: Escreva uma mensagem para _você mesmo_ sobre por que você quer isso
+
+- Isso será importante quando as coisas ficarem difíceis
+- É dinheiro? Salvar a web3? Se tornar alguém? Escreva quantas razões possíveis.
+
+### NFT da Seção 0
+
+- [Bem-vindo! (zkSync)](https://explorer.zksync.io/address/0x096f1835070EfCC3C53FFBA41C23cfD087e85b51)
+- [Bem-vindo! (Sepolia)](https://sepolia.etherscan.io/address/0x39338138414df90ec67dc2ee046ab78bcd4f56d9)
 
 🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-# 🐸 Section 1: Review (Don't skip)
-## Tooling & Environment Prerequisites
-  - VSCode
-  - VSCodium
-  - [Foundry](https://book.getfoundry.sh/)
-    - chisel
-    - cast
-    - forge
-  - [Windows Users: WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
-  - AI Helpers 
-    - ChatGPT
-    - Phind
-  - Forums & Resources
-    - Ethereum Stack Exchange
-    - Peeranha
-    - Github Discussions
-## Solidity & Smart Contract Prerequisites
-  - [Remix](https://remix.ethereum.org/)
-  - Basic smart contracts
-    - `forge init`
-## Fuzzing & Stateful Fuzzing (This might be new)
-  - Fuzz tests
-  - Stateless Fuzzing
-  - Stateful fuzzing 
-  - Invariants
-    - [Video](https://www.youtube.com/watch?v=juyY-CTolac)
-## Common EIPs/ERCs
-  - Github Copilot
-  - ERC20s
-    - [Video](https://www.youtube.com/watch?v=8rpir_ZSK1g)
-  - NFTs (ERC721s)
-    - [Video](https://www.youtube.com/watch?v=9yuHz6g_P50)
-## Advanced Solidity 
-  - storage 
-    - Clip from foundry course
-  - Fallback & Receive
-  - Encoding, Call, & Staticcall
-    - Clip from the foundry full course
-    - [Encoding.sol](https://github.com/Cyfrin/foundry-nft-f23/blob/main/src/sublesson/Encoding.sol)
-    - [CallAnything.sol](https://github.com/Cyfrin/foundry-nft-f23/blob/main/src/sublesson/CallAnything.sol)
-  - Delegatecall & Proxies 
-    - Clip from foundry full course
-  - tx.origin vs msg.sender 
-  - Selfdestruct (to be removed in an upcoming fork) 
-    - [Solidity by example](https://solidity-by-example.org/hacks/self-destruct/)
-## Advanced Foundry
-  - mainnet-forking
+<p align="right">(<a href="#table-of-contents">voltar ao topo</a>) ⬆️</p>
+
+# 🐸 Seção 1: Revisão (Não pule)
+
+## Pré-requisitos de Ferramentas & Ambiente
+
+- VSCode
+- VSCodium
+- [Foundry](https://book.getfoundry.sh/)
+  - chisel
+  - cast
+  - forge
+- [Usuários Windows: WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
+- Assistentes de IA
+  - ChatGPT
+  - Phind
+- Fóruns & Recursos
+  - Ethereum Stack Exchange
+  - Peeranha
+  - Discussões do Github
+
+## Pré-requisitos de Solidity & Smart Contracts
+
+- [Remix](https://remix.ethereum.org/)
+- Contratos inteligentes básicos
+  - `forge init`
+
+## Fuzzing & Fuzzing Stateful (Isso pode ser novo)
+
+- Testes de Fuzzing
+- Fuzzing Stateless
+- Fuzzing Stateful
+- Invariantes
+  - [Vídeo](https://www.youtube.com/watch?v=juyY-CTolac)
+
+## EIPs/ERCs Comuns
+
+- Github Copilot
+- ERC20s
+  - [Vídeo](https://www.youtube.com/watch?v=8rpir_ZSK1g)
+- NFTs (ERC721s)
+  - [Vídeo](https://www.youtube.com/watch?v=9yuHz6g_P50)
+
+## Solidity Avançado
+
+- storage
+  - Clipe do curso foundry
+- Fallback & Receive
+- Encoding, Call, & Staticcall
+  - Clipe do curso completo foundry
+  - [Encoding.sol](https://github.com/Cyfrin/foundry-nft-f23/blob/main/src/sublesson/Encoding.sol)
+  - [CallAnything.sol](https://github.com/Cyfrin/foundry-nft-f23/blob/main/src/sublesson/CallAnything.sol)
+- Delegatecall & Proxies
+  - Clipe do curso completo foundry
+- tx.origin vs msg.sender
+- Selfdestruct (será removido em um fork futuro)
+  - [Solidity by example](https://solidity-by-example.org/hacks/self-destruct/)
+
+## Foundry Avançado
+
+- mainnet-forking
 
 🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸
 
-🐸 Exercise: 
-1. Join the [CodeHawks/Cyfrin Discord](https://discord.gg/cyfrin)
-2. Go for a walk, and buckle up
+🐸 Exercício:
 
-### Section 1 NFT
-- [Refresher Fresh NFT (zkSync)](https://arbiscan.io/address/0x7a0f40757f6ba868b44ce959a1d4b8bc22c21d59)
-- [Refresher Fresh NFT (Sepolia)](https://sepolia.etherscan.io/address/0x76d2403b80591d5f6af2b468bc14205fa5452ac0)
+1. Entre no [Discord CodeHawks/Cyfrin](https://discord.gg/cyfrin)
+2. Vá dar uma caminhada e prepare-se
+
+### NFT da Seção 1
+
+- [NFT Refresher Fresh (zkSync)](https://arbiscan.io/address/0x7a0f40757f6ba868b44ce959a1d4b8bc22c21d59)
+- [NFT Refresher Fresh (Sepolia)](https://sepolia.etherscan.io/address/0x76d2403b80591d5f6af2b468bc14205fa5452ac0)
 
 🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-# ❓ Section 2: What is a smart contract audit (Security Review)?
+<p align="right">(<a href="#table-of-contents">voltar ao topo</a>) ⬆️</p>
 
-## What is a security review/smart contract audit?
-  - [High Level Overview](https://www.youtube.com/watch?v=aOqhQvWhUG0)
-  - People say "audit" -> security review
-  - There is no silver bullet to auditing, and they have limitations 
-  - 3 phases of a security review
-      - Initial Review 
-          - 0. Scoping
-          - 1. Reconnaissance
-          - 2. Vulnerability identification 
-          - 3. Reporting 
-      - Protocol fixes
-          - 1. Fixes issues
-          - 2. Retests and adds tests
-      - Mitigation Review
-          - 1. Reconnaissance
-          - 2. Vulnerability identification 
-          - 3. Reporting 
-## [Smart Contract Development Life Cycle](https://aws.amazon.com/what-is/sdlc/) 
-  - Plan & Design 
-  - Develop & Test
-  - Smart Contract Audit & Post Deploy Planning
-      - [Is this just one step?](https://aws.amazon.com/what-is/sdlc/)
-  - Deploy
-  - Monitor & Maintain
-## [Top Smart Contract Auditors (Subjective!)](https://patrickalphac.medium.com/top-7-smart-contract-auditors-bec7bd70dd9f)
-  - Use this list to reference how top quality security teams do reviews, post reports, do research, etc
-## Audit Readiness
-  - [Simple Security Checklist](https://github.com/nascentxyz/simple-security-toolkit)
-      - Test suite with code coverage
-      - Fuzzing, Static Analysis
-      - Natspec (especially for external/public functions)
-  - [The Rekt Test](https://blog.trailofbits.com/2023/08/14/can-you-pass-the-rekt-test/)
-      - ”Code maturity” is important! 
-## Tooling
-  - Static Analysis
-    - Slither
-    - Aderyn
-  - Fuzzing / Invariant Tests
-    - Foundry
-    - Echidna
-    - Consensys
-  - Formal Verification
-    - Certora
-    - Solidity SMT Checker
-    - Maat
-    - Manticore
-  - AI
-  - [Tooling vs Humans](https://github.com/ZhangZhuoSJTU/Web3Bugs)
-## Attacker vs. Defender mindset
-- Always learning
+# ❓ Seção 2: O que é uma auditoria de smart contract (Revisão de Segurança)?
 
-## Top Attack Vectors
-- Top attack vectors
+## O que é uma revisão de segurança/auditoria de smart contract?
+
+- [Visão Geral](https://www.youtube.com/watch?v=aOqhQvWhUG0)
+- As pessoas dizem "auditoria" -> revisão de segurança
+- Não existe bala de prata para auditoria, e elas têm limitações
+- 3 fases de uma revisão de segurança
+  - Revisão Inicial
+    - 0. Escopo
+    - 1. Reconhecimento
+    - 2. Identificação de vulnerabilidades
+    - 3. Relatório
+  - Correções do Protocolo
+    - 1. Corrige problemas
+    - 2. Retesta e adiciona testes
+  - Revisão de Mitigação
+    - 1. Reconhecimento
+    - 2. Identificação de vulnerabilidades
+    - 3. Relatório
+
+## [Ciclo de Vida do Desenvolvimento de Smart Contract](https://aws.amazon.com/what-is/sdlc/)
+
+- Planejar & Projetar
+- Desenvolver & Testar
+- Auditoria de Smart Contract & Planejamento Pós-Implantação
+  - [Isso é apenas uma etapa?](https://aws.amazon.com/what-is/sdlc/)
+- Implantar
+- Monitorar & Manter
+
+## [Principais Auditores de Smart Contract (Subjetivo!)](https://patrickalphac.medium.com/top-7-smart-contract-auditors-bec7bd70dd9f)
+
+- Use esta lista para referência de como as principais equipes de segurança fazem revisões, publicam relatórios, fazem pesquisas, etc
+
+## Preparação para Auditoria
+
+- [Lista de Verificação de Segurança Simples](https://github.com/nascentxyz/simple-security-toolkit)
+  - Suite de testes com cobertura de código
+  - Fuzzing, Análise Estática
+  - Natspec (especialmente para funções externas/públicas)
+- [O Teste Rekt](https://blog.trailofbits.com/2023/08/14/can-you-pass-the-rekt-test/)
+  - "Maturidade do código" é importante!
+
+## Ferramentas
+
+- Análise Estática
+  - Slither
+  - Aderyn
+- Testes de Fuzzing / Invariantes
+  - Foundry
+  - Echidna
+  - Consensys
+- Verificação Formal
+  - Certora
+  - Solidity SMT Checker
+  - Maat
+  - Manticore
+- IA
+- [Ferramentas vs Humanos](https://github.com/ZhangZhuoSJTU/Web3Bugs)
+
+## Mentalidade de Atacante vs. Defensor
+
+- Aprendendo sempre
+
+## Principais Vetores de Ataque
+
+- Principais vetores de ataque
 
 <br/>
 <p align="center">
@@ -541,433 +603,530 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 </p>
 <br/>
 
+📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝
+
+📝 Exercício: Inscreva-se em uma newsletter de segurança/web3!
+
+- [Cyfrin Updraft](https://updraft.cyfrin.io/)
+- [Blockchain Threat Intelligence](https://newsletter.blockthreat.io?r=2mgsm7) (Link de indicação)
+- [Solodit (não é uma newsletter, mas tem atualizações constantes de novos hacks)](https://solodit.xyz/)
+- [rekt](https://rekt.news/)
+- [Week In Ethereum](https://weekinethereumnews.com/)
+- [Consensys Diligence Newsletter](https://consensys.io/diligence/newsletter/)
+- [Officer CIA](https://officercia.mirror.xyz/)
+
+### NFT da Seção 2
+
+- [O mais difícil de todo o curso (zkSync)](https://explorer.zksync.io/address/0xc8B948a7fF5FBfC4b7334fF7628973aefC469A9d)
+- [O mais difícil de todo o curso (Sepolia)](https://sepolia.etherscan.io/address/0x34d130b174f4a30a846fed7c02fcf53a19a4c2b6)
 
 📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝
 
-📝 Exercise: Sign up for one security/web3 newsletter!
-
-* [Cyfrin Updraft](https://updraft.cyfrin.io/)
-* [Blockchain Threat Intelligence](https://newsletter.blockthreat.io?r=2mgsm7) (Referral link)
-* [Solodit (not a newsletter, but has constant updates of new hacks)](https://solodit.xyz/)
-* [rekt](https://rekt.news/)
-* [Week In Ethereum](https://weekinethereumnews.com/)
-* [Consensys Diligence Newsletter](https://consensys.io/diligence/newsletter/)
-* [Officer CIA](https://officercia.mirror.xyz/)
-
-### Section 2 NFT
-- [Hardest one of the whole course (zkSync)](https://explorer.zksync.io/address/0xc8B948a7fF5FBfC4b7334fF7628973aefC469A9d)
-- [Hardest one of the whole course (Sepolia)](https://sepolia.etherscan.io/address/0x34d130b174f4a30a846fed7c02fcf53a19a4c2b6)
-
-📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
+<p align="right">(<a href="#table-of-contents">voltar ao topo</a>) ⬆️</p>
 🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢
 
-*Important Note:* We are now going to do audits. Please note, that we will not find all the bugs in each codebase. Each codebase was designed to show you a specific set of bugs, and give you a good understanding of what an audit "feels" like. 
+_Nota Importante:_ Agora vamos fazer auditorias. Por favor, note que não encontraremos todos os bugs em cada base de código. Cada base de código foi projetada para mostrar um conjunto específico de bugs e dar a você uma boa compreensão de como uma auditoria "se parece".
 
 🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢
 
-
-# ⛳️ Section 3: Your first audit (security review) | PasswordStore Audit
+# ⛳️ Seção 3: Sua primeira auditoria (revisão de segurança) | Auditoria PasswordStore
 
 <br/>
 <p align="center">
 <a href="https://updraft.cyfrin.io/" target="_blank">
-<img src="./images/password-store-logo.png" width="300" alt="Smart Contract Audit & Security Review, PasswordStore">
+<img src="./images/password-store-logo.png" width="300" alt="Auditoria de Smart Contract & Revisão de Segurança, PasswordStore">
 </a>
 </p>
 <br/>
 
-💻 Security Review CodeV1: [https://sepolia.etherscan.io/address/0x2ecf6ad327776bf966893c96efb24c9747f6694b](https://sepolia.etherscan.io/address/0x2ecf6ad327776bf966893c96efb24c9747f6694b)
+💻 Código da Revisão de Segurança V1: [https://sepolia.etherscan.io/address/0x2ecf6ad327776bf966893c96efb24c9747f6694b](https://sepolia.etherscan.io/address/0x2ecf6ad327776bf966893c96efb24c9747f6694b)
 
-💻 Security Review CodeV2: [https://github.com/Cyfrin/3-passwordstore-audit](https://github.com/Cyfrin/3-passwordstore-audit)
+💻 Código da Revisão de Segurança V2: [https://github.com/Cyfrin/3-passwordstore-audit](https://github.com/Cyfrin/3-passwordstore-audit)
 
-💻 Security Review CodeV3: [https://github.com/Cyfrin/3-passwordstore-audit/tree/onboarded](https://github.com/Cyfrin/3-passwordstore-audit/tree/onboarded)
+💻 Código da Revisão de Segurança V3: [https://github.com/Cyfrin/3-passwordstore-audit/tree/onboarded](https://github.com/Cyfrin/3-passwordstore-audit/tree/onboarded)
 
-💻 Security Review Final: https://github.com/Cyfrin/3-passwordstore-audit/tree/audit-data
+💻 Revisão de Segurança Final: https://github.com/Cyfrin/3-passwordstore-audit/tree/audit-data
 
-Feel free to look ahead and try to find the bugs on the codebase yourself, or get familiar with the protocol first.
+Sinta-se à vontade para olhar adiante e tentar encontrar os bugs na base de código por conta própria, ou familiarizar-se primeiro com o protocolo.
 
-Remember the phases!
+Lembre-se das fases!
 
 🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽
 
-- Initial Review 
-    - 0. Scoping
-    - 1. Reconnaissance
-    - 2. Vulnerability identification 
-    - 3. Reporting 
-  
+- Revisão Inicial
+  - 0. Definição de Escopo
+  - 1. Reconhecimento
+  - 2. Identificação de Vulnerabilidades
+  - 3. Relatório
+
 🔼🔼🔼🔼🔼🔼🔼🔼🔼🔼
 
-For this demo, we are ignoring the last 2 phases
-- Protocol fixes
-    - 1. Fixes issues
-    - 2. Retests and adds tests
-- Mitigation Review
-    - 1. Reconnaissance
-    - 2. Vulnerability identification 
-    - 3. Reporting 
+Para esta demonstração, estamos ignorando as últimas 2 fases
 
-## The Setup (Scoping): PasswordStore
+- Correções do Protocolo
+  - 1. Corrige problemas
+  - 2. Retesta e adiciona testes
+- Revisão de Mitigação
+  - 1. Reconhecimento
+  - 2. Identificação de Vulnerabilidades
+  - 3. Relatório
+
+## A Configuração (Definição de Escopo): PasswordStore
+
 ## V1
-  - "Hey, here is my link to Etherscan, can I get an audit?"
-    - [Coinbase asset listing guide](https://www.coinbase.com/blog/a-guide-to-listing-assets-on-coinbase)
+
+- "Ei, aqui está meu link para o Etherscan, posso receber uma auditoria?"
+  - [Guia de listagem de ativos da Coinbase](https://www.coinbase.com/blog/a-guide-to-listing-assets-on-coinbase)
+
 ### V2
-  - Client onboarding: Minimal
+
+- Integração com o Cliente: Mínima
+
 ### V3
-  - `cloc`
-## "The Tincho"
-  - Read docs
-  - Note taking in-code
-  - Small -> Large
-  - [Solidity Metrics](https://github.com/Consensys/solidity-metrics)
-  - [Tincho’s ENS Review](https://www.youtube.com/watch?app=desktop&v=A-T9F0anN1E)
-## Exploits (Vulnerability Identification)
-### Exploits: Access Controls
-  - Missing `onlyowner`
-      - Access Controls
-          - Unprotected sensitive functions
-          - Role misconfiguration
-          - Privilege escalation
-### Exploits: Private Data
-  - Storing a secret (private data is not private)
-### More Recon
-  - coverage
-## Writing your first finding
-  - Write finding
-    - How to write a good finding
-    - Title: Root Cause + Impact 
-    - Finding Layout:
+
+- `cloc`
+
+## "O Método Tincho"
+
+- Ler a documentação
+- Fazer anotações no código
+- Do menor para o maior
+- [Métricas de Solidity](https://github.com/Consensys/solidity-metrics)
+- [Revisão ENS do Tincho](https://www.youtube.com/watch?app=desktop&v=A-T9F0anN1E)
+
+## Exploits (Identificação de Vulnerabilidades)
+
+### Exploits: Controles de Acesso
+
+- Falta do `onlyowner`
+  - Controles de Acesso
+    - Funções sensíveis desprotegidas
+    - Má configuração de papéis
+    - Escalada de privilégios
+
+### Exploits: Dados Privados
+
+- Armazenando um segredo (dados privados não são privados)
+
+### Mais Reconhecimento
+
+- cobertura
+
+## Escrevendo seu primeiro achado
+
+- Escrever o achado
+  - Como escrever um bom achado
+  - Título: Causa Raiz + Impacto
+  - Layout do Achado:
+
 ```
-### [S-#] Title (ROOT CAUSE + IMPACT)
+### [S-#] Título (CAUSA RAIZ + IMPACTO)
 
-**Description:** 
+**Descrição:**
 
-**Impact:** 
+**Impacto:**
 
-**Proof of Concept:**
+**Prova de Conceito:**
 
-**Recommended Mitigation:** 
+**Mitigação Recomendada:**
 ```
-  - Write PoC
-  - Mitigation
-  - Using AI
-## Are we done? 
-## Your first report (Reporting)
-- Writing the Report
-    - Severity Classification
-      - [Severity Guide](https://docs.codehawks.com/hawks-auditors/how-to-evaluate-a-finding-severity)
-    - Basic Markdown Report
-      - [Template](https://github.com/Cyfrin/audit-report-templating)
-      - [Alternative way to generate a PDF report](https://github.com/Cyfrin/audit-report-templating/blob/main/README.md#alternative-way-to-generate-a-pdf-audit-report)
+
+- Escrever PoC
+- Mitigação
+- Usando IA
+
+## Terminamos?
+
+## Seu primeiro relatório (Relatando)
+
+- Escrevendo o Relatório
+  - Classificação de Severidade
+    - [Guia de Severidade](https://docs.codehawks.com/hawks-auditors/how-to-evaluate-a-finding-severity)
+  - Relatório Básico em Markdown
+    - [Modelo](https://github.com/Cyfrin/audit-report-templating)
+    - [Forma alternativa de gerar um relatório em PDF](https://github.com/Cyfrin/audit-report-templating/blob/main/README.md#alternative-way-to-generate-a-pdf-audit-report)
 
 🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚
 
-🥚 Exercises: 
-1. [Sign up for CodeHawks!](https://www.codehawks.com/) 
-2. [Tweet about your first audit!](https://twitter.com/intent/tweet?text=Just%20completed%20my%20first%20audit%20from%20%23web3education%20and%20signed%20up%20for%20@codehawks%21)
+🥚 Exercícios:
 
-### Section 3 NFT
-- [Storage refresher! (zkSync)](https://explorer.zksync.io/address/0xA248D0d263D47f988E7B09962058fDf1407c6F9e)
-- [Storage refresher! (Sepolia)](https://sepolia.etherscan.io/address/0xa2626be06c11211a44fb6ca324a67ebdbcd30b70)
+1. [Cadastre-se no CodeHawks!](https://www.codehawks.com/)
+2. [Tuíte sobre sua primeira auditoria!](https://twitter.com/intent/tweet?text=Acabei%20de%20completar%20minha%20primeira%20auditoria%20do%20%23web3education%20e%20me%20cadastrei%20no%20@codehawks%21)
+
+### NFT da Seção 3
+
+- [Atualização de armazenamento! (zkSync)](https://explorer.zksync.io/address/0xA248D0d263D47f988E7B09962058fDf1407c6F9e)
+- [Atualização de armazenamento! (Sepolia)](https://sepolia.etherscan.io/address/0xa2626be06c11211a44fb6ca324a67ebdbcd30b70)
 
 🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
+<p align="right">(<a href="#table-of-contents">voltar ao topo</a>) ⬆️</p>
 
-# 🐶 Section 4: Manual & Static Analysis | Puppy Raffle Audit
-
-✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
-
-*This is the **BEST** security review for new auditors, 100% be sure to pay attention to this section.* 
+# 🐶 Seção 4: Análise Manual & Estática | Auditoria Puppy Raffle
 
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 
-*This is the go-to best starter audit/security review. There are a lot of bugs in here, some obvious, some not.*
+_Esta é a **MELHOR** revisão de segurança para novos auditores, certifique-se 100% de prestar atenção nesta seção._
+
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+_Esta é a melhor auditoria/revisão de segurança inicial. Há muitos bugs aqui, alguns óbvios, outros não._
 
 <br/>
 <p align="center">
 <a href="https://updraft.cyfrin.io/" target="_blank">
-<img src="./images/puppy-raffle.svg" width="300" alt="Smart Contract Audit & Security Review, Puppy Raffle">
+<img src="./images/puppy-raffle.svg" width="300" alt="Auditoria & Revisão de Segurança de Smart Contract, Puppy Raffle">
 </a>
 </p>
 <br/>
 
-💻 Security Review Code: [https://github.com/Cyfrin/4-puppy-raffle-audit](https://github.com/Cyfrin/4-puppy-raffle-audit)
+💻 Código da Revisão de Segurança: [https://github.com/Cyfrin/4-puppy-raffle-audit](https://github.com/Cyfrin/4-puppy-raffle-audit)
 
-*Concepts you'll learn: Static analysis, Reentrancy, Weak RNG, Arithmetic issues, How to write a professional looking report.*
+_Conceitos que você aprenderá: Análise estática, Reentrância, RNG fraco, Problemas aritméticos, Como escrever um relatório com aparência profissional._
 
-## Tooling: Static Analysis
- - [Web3 bugs machine vs human](https://github.com/ZhangZhuoSJTU/Web3Bugs)
- - Static Analysis
-   - [Slither](https://github.com/crytic/slither)
-   - [Aderyn](https://github.com/Cyfrin/aderyn)
- - [cloc](https://github.com/AlDanial/cloc)
- - [Solidity Metrics (audit estimation)](https://github.com/Consensys/solidity-metrics)
- - [Solidity Visual Developer](https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor)
-## Scoping & Reconnaissance: Puppy Raffle
-### Exploits: DoS (Denial of service)
-  - Fixes:
-    - Remove unnecessary loops
-### Exploits: Reentrancy
-  - [Case Study: DAO Hack](https://www.gemini.com/cryptopedia/the-dao-hack-makerdao)
-    - [Still plagues us today](https://github.com/pcaversaccio/reentrancy-attacks)
-  - [Exercises](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/reentrancy)
-    - [Search "reentrancy" in Solodit](https://solodit.xyz/)
-  - Prevention:
-    - CEI/CEII ( FREI-PI soon!)
-    - NonReentrant modifiers
-### Exploits: Weak RNG
-  - [Case Study: Meebits](https://forum.openzeppelin.com/t/understanding-the-meebits-exploit/8281)
-  - [Exercises](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/weak-randomness)
-    - [Search "RNG" in Solodit](https://solodit.xyz/)
-  - Prevention:
-    - [Chainlink VRF](https://docs.chain.link/vrf)
-### Exploits: Arithmetic issues
-   - Examples:
-     - Under/Overflow
-     - Rounding & Precision
-   - [Exercises](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/arithmetic)
-     - [Search "overflow" in Solodit](https://solodit.xyz/)
-   - Prevention:
-       - Use newer versions of solidity 
-       - Multiply before divide
-### Exploits: Poor ETH Handling
-  - Case study: [Sushiswap Miso](https://samczsun.com/two-rights-might-make-a-wrong/)
-  - Exercises:
-    - [Stuck ETH without a way to withdraw ](https://gist.github.com/tinchoabbate/99fbf7cbce47eb7c463212fd13f21149)
-    - [Mishandling ETH](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/mishandling-of-eth)
-    - [Search "Stuck ETH" in Solodit](https://solodit.xyz/)
-### Informational Findings
-   - Stict Solc Versioning 
-   - Supply Chain Attacks 
-   - Magic Numbers 
-### Gas Audits 
-### Code Maturity 
-   - Code coverage
-### Static Analysis, follow up
-## What is a Competitive Audit? 
-  - [CodeHawks Docs](https://docs.codehawks.com/)
-### Writing the report: Puppy Raffle
-   - [Audit Report Templating](https://github.com/Cyfrin/audit-report-templating/)
-   - [Github Report Templating (Cyfrin)](https://github.com/Cyfrin/audit-repo-cloner)
-   - [Github Report Templating (Spearbit)](https://github.com/spearbit-audits/report-generator-template)
-   - [Github Report Templating (Spearbit Custom)](https://github.com/Cyfrin/report-generator-template)
+## Ferramentas: Análise Estática
+
+- [Bugs Web3 máquina vs humano](https://github.com/ZhangZhuoSJTU/Web3Bugs)
+- Análise Estática
+  - [Slither](https://github.com/crytic/slither)
+  - [Aderyn](https://github.com/Cyfrin/aderyn)
+- [cloc](https://github.com/AlDanial/cloc)
+- [Métricas de Solidity (estimativa de auditoria)](https://github.com/Consensys/solidity-metrics)
+- [Desenvolvedor Visual de Solidity](https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor)
+
+## Escopo & Reconhecimento: Puppy Raffle
+
+### Exploits: DoS (Negação de serviço)
+
+- Correções:
+  - Remover loops desnecessários
+
+### Exploits: Reentrância
+
+- [Estudo de Caso: Hack do DAO](https://www.gemini.com/cryptopedia/the-dao-hack-makerdao)
+  - [Ainda nos assombra hoje](https://github.com/pcaversaccio/reentrancy-attacks)
+- [Exercícios](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/reentrancy)
+  - [Pesquise "reentrancy" no Solodit](https://solodit.xyz/)
+- Prevenção:
+  - CEI/CEII (FREI-PI em breve!)
+  - Modificadores NonReentrant
+
+### Exploits: RNG Fraco
+
+- [Estudo de Caso: Meebits](https://forum.openzeppelin.com/t/understanding-the-meebits-exploit/8281)
+- [Exercícios](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/weak-randomness)
+  - [Pesquise "RNG" no Solodit](https://solodit.xyz/)
+- Prevenção:
+  - [Chainlink VRF](https://docs.chain.link/vrf)
+
+### Exploits: Problemas Aritméticos
+
+- Exemplos:
+  - Sub/Overflow
+  - Arredondamento & Precisão
+- [Exercícios](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/arithmetic)
+  - [Pesquise "overflow" no Solodit](https://solodit.xyz/)
+- Prevenção:
+  - Use versões mais recentes do solidity
+  - Multiplique antes de dividir
+
+### Exploits: Manipulação Inadequada de ETH
+
+- Estudo de caso: [Sushiswap Miso](https://samczsun.com/two-rights-might-make-a-wrong/)
+- Exercícios:
+  - [ETH preso sem forma de sacar](https://gist.github.com/tinchoabbate/99fbf7cbce47eb7c463212fd13f21149)
+  - [Manipulação inadequada de ETH](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/mishandling-of-eth)
+  - [Pesquise "Stuck ETH" no Solodit](https://solodit.xyz/)
+
+### Achados Informativos
+
+- Versionamento Estrito do Solc
+- Ataques à Cadeia de Suprimentos
+- Números Mágicos
+
+### Auditorias de Gas
+
+### Maturidade do Código
+
+- Cobertura de código
+
+### Análise Estática, continuação
+
+## O que é uma Auditoria Competitiva?
+
+- [Documentação CodeHawks](https://docs.codehawks.com/)
+
+### Escrevendo o relatório: Puppy Raffle
+
+- [Modelo de Relatório de Auditoria](https://github.com/Cyfrin/audit-report-templating/)
+- [Modelo de Relatório Github (Cyfrin)](https://github.com/Cyfrin/audit-repo-cloner)
+- [Modelo de Relatório Github (Spearbit)](https://github.com/spearbit-audits/report-generator-template)
+- [Modelo de Relatório Github (Spearbit Personalizado)](https://github.com/Cyfrin/report-generator-template)
 
 🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀
 
-🧑‍🚀 Exercises:
-1. [Ethernaut Challenge](https://ethernaut.openzeppelin.com/)s (1, 9, and 10) 🧑‍🚀
-2. Sign up for [Solodit](https://solodit.xyz/)
-3. [Post a tweet about how you completed the Puppy Raffle Audit!](https://twitter.com/intent/tweet?text=I%20just%20completed%20the%20%40cyfrinaudits%20Puppy%20Raffle%20%F0%9F%90%B6%20Audit%20from%20the%20Ultimate%20Security%20Course.%0a%0aThanks%20%40patrickalphac!)
-4. [Sign up for farcaster](https://www.farcaster.xyz/)
-5. Do a [CodeHawks First Flight](https://www.codehawks.com/first-flights)
+🧑‍🚀 Exercícios:
 
-### Section 4 NFT
-- [A combination hack (zkSync)](https://explorer.zksync.io/address/0x9cB9C62f4d29C0300655e838831deaDeeb481Baf)
-- [A combination hack (Sepolia)](https://sepolia.etherscan.io/address/0xf988ebf9d801f4d3595592490d7ff029e438deca)
+1. [Desafios Ethernaut](https://ethernaut.openzeppelin.com/) (1, 9 e 10) 🧑‍🚀
+2. Cadastre-se no [Solodit](https://solodit.xyz/)
+3. [Poste um tweet sobre como você completou a Auditoria Puppy Raffle!](https://twitter.com/intent/tweet?text=Acabei%20de%20completar%20a%20Auditoria%20Puppy%20Raffle%20%F0%9F%90%B6%20do%20%40cyfrinaudits%20do%20Curso%20Ultimate%20de%20Segurança.%0a%0aObrigado%20%40patrickalphac!)
+4. [Cadastre-se no farcaster](https://www.farcaster.xyz/)
+5. Faça um [CodeHawks First Flight](https://www.codehawks.com/first-flights)
+
+### NFT da Seção 4
+
+- [Um hack combinado (zkSync)](https://explorer.zksync.io/address/0x9cB9C62f4d29C0300655e838831deaDeeb481Baf)
+- [Um hack combinado (Sepolia)](https://sepolia.etherscan.io/address/0xf988ebf9d801f4d3595592490d7ff029e438deca)
 
 🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-# 🔄 Section 5: Invariants & Intro to DeFi | TSwap Audit
+<p align="right">(<a href="#table-of-contents">voltar ao topo</a>) ⬆️</p>
 
-<br/>
-<p align="center">
-<a href="https://updraft.cyfrin.io/" target="_blank">
-<img src="./images/t-swap-youtube-dimensions.png" width="300" alt="Smart Contract Audit & Security Review, T-Swap">
-</a>
-</p>
-<br/>
-
-💻 Security Review Code: [https://github.com/Cyfrin/5-t-swap-audit](https://github.com/Cyfrin/5-t-swap-audit)
-
-*Concepts you'll learn: Stateful fuzzing, Fuzzing, Invariants, FREI-PI/CEII, Advanced DeFi, AMMs, Uniswap, Curve.fi, Constant product formula*
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑
-
-STOP!
-
-Don't look at the contracts for this one! 
-
-We are going to show you how you can use advanced tools to find even more bugs just by properly understanding invariants and writing more effective test suites. 
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑
-
-## The Setup (Scoping): T-Swap
-  - Client onboarding: Extensive
-## Reconnaissance: T-Swap
-   - Protocol Invariants
-   - [FREI-PI/CEI](https://www.nascent.xyz/idea/youre-writing-require-statements-wrong)
-### Intro to DeFi/OnChain Finance
-   - [DeFi Llama](https://defillama.com/)
-   - [AMMs](https://chain.link/education-hub/what-is-an-automated-market-maker-amm)
-   - [UniswapV1](https://uniswap.org/)
-   - [Curve](https://curve.fi/)
-   - [Constant Product Formula](https://docs.uniswap.org/contracts/v2/concepts/protocol-overview/how-uniswap-works)
-## Tooling: T-Swap
-  - Forge Fuzzing, Stateful Fuzzing, Invariants
-    - [Echidna](https://github.com/crytic/echidna)
-    - [Foundry](https://getfoundry.sh/)
-    - [Consensys](https://fuzzing.diligence.tools/login)
-    - Mutation Testing Introduction
-    - Differential Testing Introduction
-  - [Solodit](https://solodit.xyz/)
-  - [Properties](https://github.com/crytic/properties)
-### Exploits: Weird ERC20s
-   - [Token integration checklist](https://secure-contracts.com/development-guidelines/token_integration.html)
-   - [Weird ERC20 List](https://github.com/d-xo/weird-erc20)
-   - Rebase & fee-on-transfer
-   - ERC777 reentrancy callbacks
-### Exploits: Core Invariant breaking
-  - Case Study: 
-      - Uniswap
-      - [Euler](https://www.youtube.com/watch?v=vleHZqDc48M) 
-### Design Patterns: T-Swap
-  - FREI-PI / CEII / Pre & Post Checks
-
-💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰
-
-💰 Exercises: 
-1. Write a fuzz test to find a bug in [this challenge](https://gist.github.com/tinchoabbate/67b195b95fe77a5b9e3c6cc4bf80b3f7)
-2. Write a tweet thread about an [interesting finding from Solodit](https://solodit.xyz/)
-
-### Section 5 NFT
-- [A legit DeFi On-Chain Hack (zkSync)](https://explorer.zksync.io/address/0x21dDDcEF5E67EC2EdD9E95A868219C68196bcAD8)
-- [A legit DeFi On-Chain Hack (Sepolia)](https://sepolia.etherscan.io/address/0xdeb8d8efef7049e280af1d5fe3a380f3be93b648)
-
-💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰
-
-
-🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
-
-Congratulations!!
-
-If you've made it this far in the course and you understand what's going on, you have the skills to start getting paid as a security researcher, doing competitive audits, bug bounties, or even get hired!
-
-But if you want to become one of the best in the world and really secure web3, keep going...
-
-🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
-
-
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
-
-# 🌩️ Section 6: Centralization, Proxies, and Oracles | Thunder Loan Audit 
+# 🔄 Seção 5: Invariantes & Introdução ao DeFi | Auditoria TSwap
 
 <br/>
 <p align="center">
 <a href="https://updraft.cyfrin.io/" target="_blank">
-<img src="./images/thunder-loan.svg" width="300" alt="Smart Contract Audit & Security Review, Thunder Loan">
+<img src="./images/t-swap-youtube-dimensions.png" width="300" alt="Auditoria & Revisão de Segurança de Smart Contract, T-Swap">
 </a>
 </p>
 <br/>
 
-💻 Security Review Code: [https://github.com/Cyfrin/6-thunder-loan-audit](https://github.com/Cyfrin/6-thunder-loan-audit)
+💻 Código da Revisão de Segurança: [https://github.com/Cyfrin/5-t-swap-audit](https://github.com/Cyfrin/5-t-swap-audit)
 
-*We are staritng to get more advanced with DeFi and smart contract issues. Buckle up, we are getting hotter.*
+_Conceitos que você aprenderá: Fuzzing stateful, Fuzzing, Invariantes, FREI-PI/CEII, DeFi Avançado, AMMs, Uniswap, Curve.fi, Fórmula do produto constante_
 
-## Scoping & Reconnaissance: Thunder Loan
-### DeFi: Borrowing & Lending
-   - [Aave](https://aave.com/)
-   - [Compound](https://compound.finance/)
-   - Oracles
-     - [Chainlink](https://chain.link/)
-     - TWAP
-   - Proxies
-     - [UUPS & Transparent](https://docs.openzeppelin.com/contracts/4.x/api/proxy)
-     - [Multi-facet Proxy (Diamond)](https://eips.ethereum.org/EIPS/eip-2535)
-     - [Foundry Proxies & Upgrades](https://github.com/Cyfrin/foundry-upgrades-f23)
-     - [What are upgradeable smart contracts?](https://www.youtube.com/watch?v=bdXJmWajZRY)
-   - Centralization
-### Malicious Scope
-   - Don't "yes-man" every audit
-## Tooling: Thunder Loan
-  - [Upgradehub](https://upgradehub.xyz/)
-  - [__init vs __init_unchained](https://forum.openzeppelin.com/t/difference-between-init-and-init-unchained/25255)
-### Exploits: Failure to initialize 
-  - Case Study: [I accidentally killed it](https://github.com/openethereum/parity-ethereum/issues/6995)
-### Exploits: Storage collision
-### Exploits: Centralization
-  - Silent Upgrades
-  - Case Study: [Oasis](https://medium.com/@observer1/uk-court-ordered-oasis-to-exploit-own-security-flaw-to-recover-120k-weth-stolen-in-wormhole-hack-fcadc439ca9d)
-### Exploits: Missing events
-### Exploits: Bad Upgrade
-### Exploits: Oracle & Price Manipulation
-  - [Flash Loans](https://www.youtube.com/watch?v=Aw7yvGFtOvI)
-  - Case Study: [Alpha Homora](https://twitter.com/stellaxyz_/status/1360535699368251394)
-  - Case Study: [Creme Finance](https://rekt.news/cream-rekt-2/)
-## Design Patterns: Thunder Loan 
-  - Pull over push 
+🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑
+
+PARE!
+
+Não olhe os contratos para este!
+
+Vamos mostrar como você pode usar ferramentas avançadas para encontrar ainda mais bugs apenas entendendo adequadamente os invariantes e escrevendo suítes de teste mais efetivas.
+
+🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑
+
+## A Configuração (Escopo): T-Swap
+
+- Integração com o cliente: Extensiva
+
+## Reconhecimento: T-Swap
+
+- Invariantes do Protocolo
+- [FREI-PI/CEI](https://www.nascent.xyz/idea/youre-writing-require-statements-wrong)
+
+### Introdução ao DeFi/Finanças OnChain
+
+- [DeFi Llama](https://defillama.com/)
+- [AMMs](https://chain.link/education-hub/what-is-an-automated-market-maker-amm)
+- [UniswapV1](https://uniswap.org/)
+- [Curve](https://curve.fi/)
+- [Fórmula do Produto Constante](https://docs.uniswap.org/contracts/v2/concepts/protocol-overview/how-uniswap-works)
+
+## Ferramentas: T-Swap
+
+- Forge Fuzzing, Fuzzing Stateful, Invariantes
+  - [Echidna](https://github.com/crytic/echidna)
+  - [Foundry](https://getfoundry.sh/)
+  - [Consensys](https://fuzzing.diligence.tools/login)
+  - Introdução ao Teste de Mutação
+  - Introdução ao Teste Diferencial
+- [Solodit](https://solodit.xyz/)
+- [Propriedades](https://github.com/crytic/properties)
+
+### Exploits: ERC20s Estranhos
+
+- [Lista de verificação de integração de token](https://secure-contracts.com/development-guidelines/token_integration.html)
+- [Lista de ERC20s Estranhos](https://github.com/d-xo/weird-erc20)
+- Rebase & taxa-na-transferência
+- Callbacks de reentrância ERC777
+
+### Exploits: Quebra de Invariante Principal
+
+- Estudo de Caso:
+  - Uniswap
+  - [Euler](https://www.youtube.com/watch?v=vleHZqDc48M)
+
+### Padrões de Design: T-Swap
+
+- FREI-PI / CEII / Verificações Pré & Pós
+
+💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰
+
+💰 Exercícios:
+
+1. Escreva um teste de fuzzing para encontrar um bug neste [desafio](https://gist.github.com/tinchoabbate/67b195b95fe77a5b9e3c6cc4bf80b3f7)
+2. Escreva um thread no Twitter sobre um [achado interessante do Solodit](https://solodit.xyz/)
+
+### NFT da Seção 5
+
+- [Um Hack DeFi On-Chain Legítimo (zkSync)](https://explorer.zksync.io/address/0x21dDDcEF5E67EC2EdD9E95A868219C68196bcAD8)
+- [Um Hack DeFi On-Chain Legítimo (Sepolia)](https://sepolia.etherscan.io/address/0xdeb8d8efef7049e280af1d5fe3a380f3be93b648)
+
+💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰
+
+🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
+
+Parabéns!!
+
+Se você chegou até aqui no curso e entende o que está acontecendo, você tem as habilidades para começar a ser pago como pesquisador de segurança, fazendo auditorias competitivas, caça a bugs, ou até mesmo ser contratado!
+
+Mas se você quer se tornar um dos melhores do mundo e realmente proteger a web3, continue...
+
+🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
+
+<p align="right">(<a href="#table-of-contents">voltar ao topo</a>) ⬆️</p>
+
+# 🌩️ Seção 6: Centralização, Proxies e Oráculos | Auditoria Thunder Loan
+
+<br/>
+<p align="center">
+<a href="https://updraft.cyfrin.io/" target="_blank">
+<img src="./images/thunder-loan.svg" width="300" alt="Auditoria & Revisão de Segurança de Smart Contract, Thunder Loan">
+</a>
+</p>
+<br/>
+
+💻 Código da Revisão de Segurança: [https://github.com/Cyfrin/6-thunder-loan-audit](https://github.com/Cyfrin/6-thunder-loan-audit)
+
+_Estamos começando a ficar mais avançados com DeFi e problemas de smart contracts. Aperte os cintos, está esquentando._
+
+## Escopo & Reconhecimento: Thunder Loan
+
+### DeFi: Empréstimo & Empréstimo
+
+- [Aave](https://aave.com/)
+- [Compound](https://compound.finance/)
+- Oráculos
+  - [Chainlink](https://chain.link/)
+  - TWAP
+- Proxies
+  - [UUPS & Transparente](https://docs.openzeppelin.com/contracts/4.x/api/proxy)
+  - [Proxy Multi-facetado (Diamond)](https://eips.ethereum.org/EIPS/eip-2535)
+  - [Proxies & Upgrades do Foundry](https://github.com/Cyfrin/foundry-upgrades-f23)
+  - [O que são smart contracts atualizáveis?](https://www.youtube.com/watch?v=bdXJmWajZRY)
+- Centralização
+
+### Escopo Malicioso
+
+- Não seja "yes-man" em toda auditoria
+
+## Ferramentas: Thunder Loan
+
+- [Upgradehub](https://upgradehub.xyz/)
+- [**init vs **init_unchained](https://forum.openzeppelin.com/t/difference-between-init-and-init-unchained/25255)
+
+### Exploits: Falha na inicialização
+
+- Estudo de Caso: [Eu acidentalmente matei](https://github.com/openethereum/parity-ethereum/issues/6995)
+
+### Exploits: Colisão de armazenamento
+
+### Exploits: Centralização
+
+- Atualizações Silenciosas
+- Estudo de Caso: [Oasis](https://medium.com/@observer1/uk-court-ordered-oasis-to-exploit-own-security-flaw-to-recover-120k-weth-stolen-in-wormhole-hack-fcadc439ca9d)
+
+### Exploits: Eventos ausentes
+
+### Exploits: Atualização ruim
+
+### Exploits: Manipulação de Oráculo & Preço
+
+- [Flash Loans](https://www.youtube.com/watch?v=Aw7yvGFtOvI)
+- Estudo de Caso: [Alpha Homora](https://twitter.com/stellaxyz_/status/1360535699368251394)
+- Estudo de Caso: [Creme Finance](https://rekt.news/cream-rekt-2/)
+
+## Padrões de Design: Thunder Loan
+
+- Pull sobre push
 
 📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦
 
-📦 Exercises:
+📦 Exercícios:
+
 1. [YAcademy Proxy ](https://proxies.yacademy.dev/)
-2. Tweet about how YOU feel about upgradeable smart contracts 
+2. Tuíte sobre como VOCÊ se sente sobre smart contracts atualizáveis
 
-### Section 6 NFT
-- [It's a bit scary how powerful you've become (zkSync)](https://explorer.zksync.io/address/0x84c98b9A74707E116b35d0b3b0C851b96D62647c)
-- [It's a bit scary how powerful you've become (Sepolia)](https://sepolia.etherscan.io/address/0xcf4fba490197452bd414e16d563623253efb57d3)
+### NFT da Seção 6
+
+- [É um pouco assustador o quão poderoso você se tornou (zkSync)](https://explorer.zksync.io/address/0x84c98b9A74707E116b35d0b3b0C851b96D62647c)
+- [É um pouco assustador o quão poderoso você se tornou (Sepolia)](https://sepolia.etherscan.io/address/0xcf4fba490197452bd414e16d563623253efb57d3)
 
 📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
+<p align="right">(<a href="#table-of-contents">voltar ao topo</a>) ⬆️</p>
 
-# 🌉 Section 7: Bridges, Chains, Signatures, Intro to Yul/Assembly | Bridge Boss Audit
+# 🌉 Seção 7: Bridges, Chains, Assinaturas, Introdução ao Yul/Assembly | Auditoria Bridge Boss
 
 <br/>
 <p align="center">
 <a href="https://updraft.cyfrin.io/" target="_blank">
-<img src="./images/boss-bridge.png" width="300" alt="Smart Contract Audit & Security Review, Boss Bridge">
+<img src="./images/boss-bridge.png" width="300" alt="Auditoria & Revisão de Segurança de Smart Contract, Boss Bridge">
 </a>
 </p>
 <br/>
 
-💻 Security Review Code: [https://github.com/Cyfrin/7-boss-bridge-audit](https://github.com/Cyfrin/7-boss-bridge-audit)
+💻 Código da Revisão de Segurança: [https://github.com/Cyfrin/7-boss-bridge-audit](https://github.com/Cyfrin/7-boss-bridge-audit)
 
-## Tooling: Boss Bridge
-  - AI
-  - Tenderly
-  - [evm  diff](https://www.evmdiff.com/)
-  - We will learn "the Hans'"
-    - [Checklist](https://github.com/Cyfrin/audit-checklist/tree/main)
-## Scoping & Reconnaissance: Boss Bridge
-  - Precompiles
-    - Case Study: [Polygon](https://youtu.be/QdIG7TfjUiM)
-  - [Public private key demo](https://github.com/anders94/public-private-key-demo)
-  - [Encoding & Decoding Refresher](https://github.com/Cyfrin/foundry-nft-f23/blob/main/src/sublesson/CallAnything.sol)
-### Exploits: Opcode Support
-  - Case study: [zkSync](https://medium.com/coinmonks/gemstoneido-contract-stuck-with-921-eth-an-analysis-of-why-transfer-does-not-work-on-zksync-era-d5a01807227d)
-### Exploits: Signature Replay
-### Exploits: ERC20 Contract Approval
-### Exploits: Unlimited Minting
-## Bridge Hacks
-  - Bridge hacks: Ronin, Poly network, Nomad, Wormhole
-### Writing the report: Boss Bridge
-## Design Patterns: Boss Bridge
-  - Emergency stop
+## Ferramentas: Boss Bridge
+
+- IA
+- Tenderly
+- [evm diff](https://www.evmdiff.com/)
+- Vamos aprender "o Hans'"
+  - [Checklist](https://github.com/Cyfrin/audit-checklist/tree/main)
+
+## Escopo & Reconhecimento: Boss Bridge
+
+- Precompilados
+  - Estudo de Caso: [Polygon](https://youtu.be/QdIG7TfjUiM)
+- [Demo de chave pública privada](https://github.com/anders94/public-private-key-demo)
+- [Revisão de Codificação & Decodificação](https://github.com/Cyfrin/foundry-nft-f23/blob/main/src/sublesson/CallAnything.sol)
+
+### Exploits: Suporte a Opcode
+
+- Estudo de caso: [zkSync](https://medium.com/coinmonks/gemstoneido-contract-stuck-with-921-eth-an-analysis-of-why-transfer-does-not-work-on-zksync-era-d5a01807227d)
+
+### Exploits: Replay de Assinatura
+
+### Exploits: Aprovação de Contrato ERC20
+
+### Exploits: Mintagem Ilimitada
+
+## Hacks de Bridge
+
+- Hacks de bridge: Ronin, Poly network, Nomad, Wormhole
+
+### Escrevendo o relatório: Boss Bridge
+
+## Padrões de Design: Boss Bridge
+
+- Parada de emergência
+
+💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰
+
+💰 Exercícios:
+
+1. [Desafios Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/) 1, 2, 4
+2. Escreva um thread no Twitter sobre uma [descoberta interessante do Solodit](https://solodit.xyz/)
+3. Faça um tweet sobre como você concluiu a auditoria mais difícil até agora!
+4. Leia sobre mais ataques históricos:
+   1. [Replay de Assinatura](https://solodit.xyz/issues/router-signatures-can-be-replayed-when-executing-messages-on-the-destination-domain-spearbit-connext-pdf)
+   2. [Problemas de assinatura da árvore Merkle](https://solodit.xyz/issues/m-14-merkle-tree-related-contracts-vulnerable-to-cross-chain-replay-attacks-code4rena-factorydao-factorydao-contest-git)
+   3. [Gasto Duplo Polygon](https://medium.com/immunefi/polygon-double-spend-bug-fix-postmortem-2m-bounty-5a1db09db7f1)
+   4. [Hack da Bridge Nomad](https://medium.com/immunefi/hack-analysis-nomad-bridge-august-2022-5aa63d53814a)
+
+### NFT da Seção 7
+
+- [Diga Oi para o Vitalik (zkSync)](https://explorer.zksync.io/address/0x31B827e55DBA91f39581647FA14AD7CC5fc9EDaB)
+- [Diga Oi para o Vitalik (Sepolia)](https://sepolia.etherscan.io/address/0x33ee14fb8816c92fe401165330bbe29706942183)
 
 💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰
 
-💰 Exercises: 
+<p align="right">(<a href="#table-of-contents">voltar ao topo</a>) ⬆️</p>
 
-1. [Damn Vulnerable DeFi Challenges](https://www.damnvulnerabledefi.xyz/) 1, 2, 4
-2. Write a tweet thread about an [interesting finding from Solodit](https://solodit.xyz/)
-3. Tweet about how you finished the hardest audit yet! 
-4. Read about more historic attacks:
-    1. [Signature Replay](https://solodit.xyz/issues/router-signatures-can-be-replayed-when-executing-messages-on-the-destination-domain-spearbit-connext-pdf)
-    2. [Merkle tree signature issues](https://solodit.xyz/issues/m-14-merkle-tree-related-contracts-vulnerable-to-cross-chain-replay-attacks-code4rena-factorydao-factorydao-contest-git)
-    3. [Polygon Double Spend](https://medium.com/immunefi/polygon-double-spend-bug-fix-postmortem-2m-bounty-5a1db09db7f1)
-    4. [Nomad Bridge Hack](https://medium.com/immunefi/hack-analysis-nomad-bridge-august-2022-5aa63d53814a)
-
-### Section 7 NFT
-- [Tell Vitalik Hi (zkSync)](https://explorer.zksync.io/address/0x31B827e55DBA91f39581647FA14AD7CC5fc9EDaB)
-- [Tell Vitalik Hi (Sepolia)](https://sepolia.etherscan.io/address/0x33ee14fb8816c92fe401165330bbe29706942183)
-
-💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
-
-# Section 7.5: MEV & Governance
+# Seção 7.5: MEV & Governança
 
 <br/>
 <p align="center">
@@ -977,148 +1136,158 @@ But if you want to become one of the best in the world and really secure web3, k
 </p>
 <br/>
 
-## Introduction to MEV
-  - [MEV Explained](https://www.youtube.com/watch?v=92bdU5uvsD8)
-  - [MEV Explained continued](https://www.youtube.com/watch?v=MlbtSAntr7c) 
-  - [Toxic MEV](https://collective.flashbots.net/t/on-the-toxicity-classification-of-mev-transactions/521)
-      - Frontrunning
-      - Sandwich Attacks
-  - non-toxic
-      - Backrunning
-  - MEV Protection
-      - Design
-      - [Flashbots Protect](https://docs.flashbots.net/flashbots-protect/overview)
-      - [MEVBlocker](https://mevblocker.io/)
-      - [Securerpc](https://securerpc.com/)
-  - MEV in our past security reviews:
-    - Puppy:
-      - Someone can front-run `selectWinner` to call a refund
-    - T-Swap:
-      - Deadline protection means people can "sandwhich" attack you
-    - Thunder Loan:
-      - Users can front run flash loans to make the fees higher or lower
-    - Boss Bridge:
-      - A signed transaction could be front run so that an attacker sends tokens from an L2 before the signer can
-  - Slippage Protection
-### Exploits: Governance Attack
-  - Unlimited Minting
-  - Flash Loan Voting
-  - Case Study: [Beanstalk](https://rekt.news/beanstalk-rekt/)
-  - Metamorphic upgrades
-      - Case Study: TORN Governance 
+## Introdução ao MEV
 
-# 🛡️ Section 8: (THE FINAL BOSS AUDIT) MEV, Nodes, & DAOs | Vault Guardians Audit
+- [MEV Explicado](https://www.youtube.com/watch?v=92bdU5uvsD8)
+- [MEV Explicado continuação](https://www.youtube.com/watch?v=MlbtSAntr7c)
+- [MEV Tóxico](https://collective.flashbots.net/t/on-the-toxicity-classification-of-mev-transactions/521)
+  - Frontrunning (Antecipação)
+  - Ataques Sandwich
+- não-tóxico
+  - Backrunning (Execução posterior)
+- Proteção MEV
+  - Design
+  - [Flashbots Protect](https://docs.flashbots.net/flashbots-protect/overview)
+  - [MEVBlocker](https://mevblocker.io/)
+  - [Securerpc](https://securerpc.com/)
+- MEV em nossas revisões de segurança anteriores:
+  - Puppy:
+    - Alguém pode fazer frontrun do `selectWinner` para solicitar um reembolso
+  - T-Swap:
+    - A proteção de prazo significa que as pessoas podem fazer um ataque "sandwich"
+  - Thunder Loan:
+    - Usuários podem fazer frontrun de empréstimos flash para tornar as taxas mais altas ou mais baixas
+  - Boss Bridge:
+    - Uma transação assinada pode sofrer frontrun para que um atacante envie tokens de uma L2 antes que o assinante possa
+- Proteção contra Slippage
+
+### Exploits: Ataque de Governança
+
+- Mintagem Ilimitada
+- Votação com Flash Loan
+- Estudo de Caso: [Beanstalk](https://rekt.news/beanstalk-rekt/)
+- Atualizações Metamórficas
+  - Estudo de Caso: Governança TORN
+
+# 🛡️ Seção 8: (A AUDITORIA DO CHEFE FINAL) MEV, Nós, & DAOs | Auditoria Vault Guardians
 
 <br/>
 <p align="center">
 <a href="https://updraft.cyfrin.io/" target="_blank">
-<img src="./images/vault-guardians.png" width="300" alt="Smart Contract Audit & Security Review, Vault Guardians">
+<img src="./images/vault-guardians.png" width="300" alt="Auditoria de Smart Contract & Revisão de Segurança, Vault Guardians">
 </a>
 </p>
 <br/>
 
-*This security review is optional. It's a LOT of code! But if you choose to do it, you'll get a better idea of what a larger codebase feels like. Being comfortable coming up to a codebase and saying "I'll eventually understand this codebase, but right now I don't" is important!*
+_Esta revisão de segurança é opcional. É MUITO código! Mas se você escolher fazê-la, terá uma ideia melhor de como é uma base de código maior. É importante se sentir confortável ao abordar uma base de código e dizer "Eventualmente vou entender esta base de código, mas agora não entendo"!_
 
-💻 Security Review Code: [https://github.com/Cyfrin/8-vault-guardians-audit](https://github.com/Cyfrin/8-vault-guardians-audit)
+💻 Código da Revisão de Segurança: [https://github.com/Cyfrin/8-vault-guardians-audit](https://github.com/Cyfrin/8-vault-guardians-audit)
 
-## Concepts: Vault Guardians
-   - [Tokenized Vaults (ERC-4626)](https://eips.ethereum.org/EIPS/eip-4626)
-   - [Yearn Finance](https://yearn.fi/)
-   - [Permit2](https://github.com/Uniswap/permit2)
-## Good luck :) 
+## Conceitos: Vault Guardians
 
-🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅
+- [Vaults Tokenizados (ERC-4626)](https://eips.ethereum.org/EIPS/eip-4626)
+- [Yearn Finance](https://yearn.fi/)
+- [Permit2](https://github.com/Uniswap/permit2)
 
-🦅 Exercises: 
-
-1. [1st CodeHawks Competitive Audit](https://codehawks.com/) 
-2. Write a tweet thread about an [interesting finding from Solodit](https://solodit.xyz/)
-3. Write a blog or tweet on your experience! 
-4. Read [these tips](https://github.com/0xJuancito/multichain-auditor) for auditing multi-chain protocols 
-
-### Section 8 NFT
-- [GO OUT THERE AND GET IT!!! (zkSync)](https://explorer.zksync.io/address/0xC580F34dafb8Fd324Fa22C3aCABF8cb2090117e2)
-- [GO OUT THERE AND GET IT!!! (Sepolia)](https://sepolia.etherscan.io/address/0xdf7cdff0c5e85c974d6377244d9a0ceffa2b7a86#code)
+## Boa sorte :)
 
 🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅
 
-🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅
+🦅 Exercícios:
 
-# First CodeHawks Competitive Audit
-- How to submit a finding
-- How to decide severity
-- Where to find a competitive audit
+1. [1ª Auditoria Competitiva CodeHawks](https://codehawks.com/)
+2. Escreva um thread no Twitter sobre um [achado interessante do Solodit](https://solodit.xyz/)
+3. Escreva um blog ou tweet sobre sua experiência!
+4. Leia [estas dicas](https://github.com/0xJuancito/multichain-auditor) para auditar protocolos multi-chain
+
+### NFT da Seção 8
+
+- [VÁ LÁ E CONQUISTE!!! (zkSync)](https://explorer.zksync.io/address/0xC580F34dafb8Fd324Fa22C3aCABF8cb2090117e2)
+- [VÁ LÁ E CONQUISTE!!! (Sepolia)](https://sepolia.etherscan.io/address/0xdf7cdff0c5e85c974d6377244d9a0ceffa2b7a86#code)
 
 🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅
 
 🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
+
+# Primeira Auditoria Competitiva CodeHawks
+
+- Como submeter um achado
+- Como decidir a severidade
+- Onde encontrar uma auditoria competitiva
+
+🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅
+
+🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅
+
+<p align="right">(<a href="#table-of-contents">voltar ao topo</a>) ⬆️</p>
+
+🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
+Parabéns!!
+
+Se você chegou até aqui no curso e entende o que está acontecendo, você tem as habilidades para se tornar um dos principais pesquisadores de segurança na web3! Seja como auditor solo, freelancer, auditor competitivo, ou até mesmo ser contratado por uma empresa de primeira linha!
+
+No entanto... se você quer estar na vanguarda e ser capaz de entender cada detalhe da web3, você ainda tem um pouco mais pela frente...
 
 🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
 
-Congratulations!!
+# A Parte 2 foi movida!
 
-If you've made it this far in the course and you understand what's going on, you have the skills to become one of the top security researchers in web3! Either as a solo auditor, freelancer, competitive auditor, or even get hired by a top firm!
+## Atualização sobre Carteiras, Pós-implantação, Opcodes EVM, Assembly e Verificação Formal
 
-However... if you want to be on the cutting edge and be able to understand every nook in web3, you've got a little more to go...
+As próximas seções (originalmente chamadas apenas de "parte 2") foram movidas para seus próprios cursos!
 
-🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
-
-# Part 2 has been moved!
-## Update on Wallets, Post-deployment, EVM Opcodes, Assembly, and Formal Verification
-
-The next sections (originally just called "part 2") have been moved to their own courses!
-- Wallets & Post Deployment
+- Carteiras & Pós-Implantação
   - [Updraft](https://updraft.cyfrin.io/courses/wallet-and-deployment)
   - [GitHub](https://github.com/Cyfrin/evm-wallet-and-post-deployment-course)
-- Assembly, EVM Opcodes, and Formal Verification
+- Assembly, Opcodes EVM e Verificação Formal
   - [Updraft](https://updraft.cyfrin.io/courses/formal-verification)
   - [GitHub](https://github.com/Cyfrin/assembly-evm-opcodes-and-formal-verification-course)
 
-## Highly Recommend
+## Altamente Recomendado
 
-We *highly* recommend takin these two courses (linked above) so you can have a thorough grasp of all things EVM. 
+Nós _altamente_ recomendamos fazer estes dois cursos (linkados acima) para que você possa ter um entendimento completo de tudo relacionado à EVM.
 
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
+<p align="right">(<a href="#table-of-contents">voltar ao topo</a>) ⬆️</p>
 
-# Congratulations
+# Parabéns
 
-🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊 Completed The Course! 🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊 
+🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊 Completou O Curso! 🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
 
-If you've made it this far... wow. 
+Se você chegou até aqui... uau.
 
-## Where do I go now?
+## Para onde vou agora?
 
-- Competititve Audits
+- Auditorias Competitivas
   - [CodeHawks](https://codehawks.com)
-    - We are working on many things to get you more deals. Stay tuned...
+    - Estamos trabalhando em muitas coisas para conseguir mais negócios para você. Fique ligado...
   - [Code4rena](https://code4rena.com/)
   - [Hats Finance](https://hats.finance/)
-- [CodeHawks Discord](https://discord.gg/cyfrin)
-- Start marketing your services
+- [Discord do CodeHawks](https://discord.gg/cyfrin)
+- Comece a divulgar seus serviços
   - Twitter, Farcaster, LinkedIn, etc
-  - Blogging: Medium, Mirror, etc
-- Bug Bounties
+  - Blog: Medium, Mirror, etc
+- Caça-bugs
   - [Immunefi](https://immunefi.com/)
   - [Hats Finance](https://hats.finance/)
 
-## Learning More
-- [Patrick Collins YouTube](https://www.youtube.com/c/patrickcollins)
+## Aprendendo Mais
+
+- [YouTube do Patrick Collins](https://www.youtube.com/c/patrickcollins)
 - [Solodit](https://solodit.xyz/)
-- [Block Threat Intelligence](https://newsletter.blockthreat.io?r=2mgsm7) (Referral Link)
-- [Consensys Diligence Newsletter](https://consensys.io/diligence/newsletter/)
-- [Owen Thurm YouTube](https://www.youtube.com/@0xOwenThurm)
+- [Block Threat Intelligence](https://newsletter.blockthreat.io?r=2mgsm7) (Link de Indicação)
+- [Newsletter Consensys Diligence](https://consensys.io/diligence/newsletter/)
+- [YouTube do Owen Thurm](https://www.youtube.com/@0xOwenThurm)
 - [JohnnyTime](https://www.youtube.com/@JohnnyTime)
-- [The Red Guild YouTube](https://www.youtube.com/channel/UC7bn5DeABT6zQz-bn6GS1Yw)
-- [Cyfrin YouTube](https://www.youtube.com/@CyfrinAudits)
+- [YouTube do The Red Guild](https://www.youtube.com/channel/UC7bn5DeABT6zQz-bn6GS1Yw)
+- [YouTube do Cyfrin](https://www.youtube.com/@CyfrinAudits)
 
-## Disclosures
+## Divulgações
 
-The Cyfrin team runs CodeHawks, Cyfrin Updraft, and private security reviews. They are an advisor to the Peeranha project, and run various blockchain nodes like Chainlink & Ethereum. Additionally, the are responsible for the creation of the Aderyn and Solodit tools.  
+A equipe Cyfrin administra o CodeHawks, Cyfrin Updraft e revisões privadas de segurança. Eles são consultores do projeto Peeranha e operam vários nós blockchain como Chainlink & Ethereum. Além disso, são responsáveis pela criação das ferramentas Aderyn e Solodit.
 
-# Thank you
+# Obrigado
 
-## Sponsors
+## Patrocinadores
 
 - [Cyfrin](https://www.cyfrin.io/)
   - [Updraft](https://updraft.cyfrin.io/)
@@ -1126,48 +1295,48 @@ The Cyfrin team runs CodeHawks, Cyfrin Updraft, and private security reviews. Th
   - [Solodit](https://solodit.xyz/)
 - [The Red Guild](https://theredguild.org/)
 
-## Lead Lecturers / Code Builders
+## Professores Principais / Desenvolvedores do Código
 
 - [Patrick Collins | Cyfrin](https://twitter.com/PatrickAlphaC)
 - [Tincho | The Red Guild](https://twitter.com/tinchoabbate)
 
-## Guest Lecturers
+## Professores Convidados
 
 - [Josselin Feist | Trail of Bits](https://twitter.com/Montyly)
   - [Trail of Bits](https://www.trailofbits.com/)
-  - Fuzzing & Formal Verification
+  - Fuzzing & Verificação Formal
 - [Owen | Guardian Audits](https://twitter.com/0xOwenThurm)
   - [Guardian Audits](https://guardianaudits.com/)
-  - Denial Of Service
+  - Negação de Serviço
 - [Andy Li | Sigma Prime](https://twitter.com/andyfeili)
   - [Sigma Prime](https://sigmaprime.io/)
-  - Weak Randomness
+  - Aleatoriedade Fraca
 - [JohnnyTime | Gingersec](https://twitter.com/RealJohnnyTime)
   - [Gingersec](https://gingersec.xyz/)
-  - Governance Attack (Specific)
-- [Pashov | Independent Security Researcher](https://twitter.com/pashovkrum)
+  - Ataque de Governança (Específico)
+- [Pashov | Pesquisador de Segurança Independente](https://twitter.com/pashovkrum)
   - MEV
 - [Juliette | Cyfrin](https://twitter.com/_juliettech)
-  - Governance Attack (General)
+  - Ataque de Governança (Geral)
 - [Alex Roan | Cyfrin](https://twitter.com/alexroan)
-  - Fuzzing & Smart Engineering
+  - Fuzzing & Engenharia Inteligente
 
-## Special thanks
+## Agradecimentos especiais
 
-- [hansfriese](https://twitter.com/hansfriese) 
+- [hansfriese](https://twitter.com/hansfriese)
 - [carlitox477](https://twitter.com/carlitox477)
 - [0Kage](https://twitter.com/hansfriese)
 - [giovannidisiena.eth](https://twitter.com/giovannidisiena)
 - [Dacian](https://twitter.com/DevDacian)
-- [Alex Roan](https://twitter.com/alexroan)  
-- [Peter Kacherginsky](https://twitter.com/_iphelix) 
+- [Alex Roan](https://twitter.com/alexroan)
+- [Peter Kacherginsky](https://twitter.com/_iphelix)
 - [Karma Coma](https://twitter.com/0xkarmacoma)
 - [Zach Obront](https://twitter.com/zachobront)
-- [Pinata (for hosting my cringe)](https://app.pinata.cloud)
+- [Pinata (por hospedar meu conteúdo)](https://app.pinata.cloud)
 
-## More Security Stuff
+## Mais Conteúdo de Segurança
 
-- [Self accounts "audit"](https://securityalliance.notion.site/Telegram-Security-Self-Audit-863507aa2ea84360be8e6f30c61e6b0d)
+- ["Auditoria" de contas próprias](https://securityalliance.notion.site/Telegram-Security-Self-Audit-863507aa2ea84360be8e6f30c61e6b0d)
 - [https://scsfg.io/](https://scsfg.io/)
 - [https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap](https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap)
 - [https://github.com/transmissions11/solcurity](https://github.com/transmissions11/solcurity)
@@ -1175,22 +1344,22 @@ The Cyfrin team runs CodeHawks, Cyfrin Updraft, and private security reviews. Th
 - [https://secure-contracts.com/](https://secure-contracts.com/)
 - [https://github.com/crytic/properties](https://github.com/crytic/properties)
 
-## Sponsors
+## Patrocinadores
 
-Big thanks to our sponsors/donors!!
+Muito obrigado aos nossos patrocinadores/doadores!!
 
-- [Matter Labs (zkSync)](https://zksync.io/)  
+- [Matter Labs (zkSync)](https://zksync.io/)
 - [Arbitrum Foundation](https://arbitrum.foundation/)
 - [Chainlink Labs](https://chainlinklabs.com/)
 - [Certora](https://www.certora.com/)
 
-## Huge Extra Thank YOU
+## Um ENORME Agradecimento Extra
 
-Thanks to everyone who is taking, participating in, and working on this course. These courses are passion project data dumps for everyone in the web3 ecosystem. 
+Obrigado a todos que estão fazendo, participando e trabalhando neste curso. Estes cursos são projetos de paixão que compartilham conhecimento para todos no ecossistema web3.
 
-Let's level up so we can keep web3 safer, and thank you again for taking this course!
+Vamos evoluir para manter a web3 mais segura, e obrigado novamente por fazer este curso!
 
 [![Cyfrin Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/cyfrinaudits)
 [![Cyfrin YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@CyfrinAudits)
 
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
+<p align="right">(<a href="#table-of-contents">voltar ao topo</a>) ⬆️</p>

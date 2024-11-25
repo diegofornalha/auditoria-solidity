@@ -1,117 +1,117 @@
-# Protocol Security Review Questions
+# Questões de Revisão de Segurança do Protocolo
 
-## Basic Info
+## Informações Básicas
 
-| Protocol Name                                |     |
-| -------------------------------------------- | --- |
-| Website                                      |     |
-| Link To Documentation                        |     |
-| Key Point of Contact (Name, Email, Telegram) |     |
-| Link to Whitepaper, if any (optional)        |     |
+| Nome do Protocolo                          |     |
+| ------------------------------------------ | --- |
+| Site                                       |     |
+| Link para Documentação                     |     |
+| Contato Principal (Nome, Email, Telegram)  |     |
+| Link para Whitepaper, se houver (opcional) |     |
 
-## Code Details
+## Detalhes do Código
 
-| Link to Repo to be audited                              |     |
-| ------------------------------------------------------- | --- |
-| Commit hash                                             |     |
-| Number of Contracts in Scope                            |     |
-| Total SLOC for contracts in scope                       |     |
-| Complexity Score                                        |     |
-| How many external protocols does the code interact with |     |
-| Overall test coverage for code under audit              |     |
+| Link para o Repositório a ser auditado              |     |
+| --------------------------------------------------- | --- |
+| Hash do Commit                                      |     |
+| Número de Contratos no Escopo                       |     |
+| Total de SLOC para contratos no escopo              |     |
+| Pontuação de Complexidade                           |     |
+| Com quantos protocolos externos o código interage   |     |
+| Cobertura geral de testes para código sob auditoria |     |
 
-### In Scope Contracts                                                    
+### Contratos no Escopo
 
-*You could run `tree ./src/ | sed 's/└/#/g; s/──/--/g; s/├/#/g; s/│ /|/g; s/│/|/g'` to get a nice output that works with pandoc for all files in `./src/`*
+_Você pode executar `tree ./src/ | sed 's/└/#/g; s/──/--/g; s/├/#/g; s/│ /|/g; s/│/|/g'` para obter uma saída adequada que funciona com pandoc para todos os arquivos em `./src/`_
 
 ```
-*Place in-scope contracts in here.*
+*Coloque aqui os contratos dentro do escopo.*
 ```
 
-## Protocol Details
+## Detalhes do Protocolo
 
-Tell us a little bit about your protocol.
+Conte-nos um pouco sobre seu protocolo.
 
-| Current Status                                                      |     |
-| ------------------------------------------------------------------- | --- |
-| Is the project a fork of the existing protocol                      |     |
-| Specify protocol (only if Yes for prev question)                    |     |
-| Does the project use rollups?                                       |     |
-| Will the protocol be multi-chain?                                   |     |
-| Specify chain(s) on which protocol is/ would be deployed            |     |
-| Does the protocol use external oracles?                             |     |
-| Does the protocol use external AMMs?                                |     |
-| Does the protocol use zero-knowledge proofs?                        |     |
-| Which ERC20 tokens do you expect to interact with smart contracts   |     |
-| Which ERC721 tokens do you expect to interact with smart contracts? |     |
-| Are ERC777 tokens expected to interact with protocol?               |     |
-| Are there any off-chain processes (keeper bots etc.)                |     |
-| If yes to the above, please explain                                 |     |
+| Status Atual                                                     |     |
+| ---------------------------------------------------------------- | --- |
+| O projeto é um fork de um protocolo existente                    |     |
+| Especifique o protocolo (apenas se Sim para pergunta anterior)   |     |
+| O projeto usa rollups?                                           |     |
+| O protocolo será multi-chain?                                    |     |
+| Especifique a(s) rede(s) em que o protocolo está/será implantado |     |
+| O protocolo usa oráculos externos?                               |     |
+| O protocolo usa AMMs externos?                                   |     |
+| O protocolo usa provas de conhecimento zero?                     |     |
+| Quais tokens ERC20 você espera que interajam com os contratos    |     |
+| Quais tokens ERC721 você espera que interajam com os contratos?  |     |
+| Tokens ERC777 devem interagir com o protocolo?                   |     |
+| Existem processos off-chain (bots keeper etc.)                   |     |
+| Se sim para o anterior, por favor explique                       |     |
 
-## Protocol Risks
+## Riscos do Protocolo
 
-Tell us what you consider acceptable risks. We will ignore evaluating some risks based on this feedback.
+Diga-nos quais riscos você considera aceitáveis. Ignoraremos a avaliação de alguns riscos com base neste feedback.
 
-| Should we evaluate risks related to centralization?                          |     |
-| ---------------------------------------------------------------------------- | --- |
-| Should we evaluate the risks of rogue protocol admin capturing user funds?   |     |
-| Should we evaluate risks related to deflationary/ inflationary ERC20 tokens? |     |
-| Should we evaluate risks due to fee-on-transfer tokens?                      |     |
-| Should we evaluate risks due to rebasing tokens?                             |     |
-| Should we evaluate risks due to the pausing of any external contracts?       |     |
-| Should we evaluate risks associated with external oracles (if they exist)?   |     |
-| Should we evaluate risks related to blacklisted users for specific tokens?   |     |
-| Is the code expected to comply with any specific EIPs?                       |     |
-| If yes for the above, please share the EIPs                                  |     |
+| Devemos avaliar riscos relacionados à centralização?                                 |     |
+| ------------------------------------------------------------------------------------ | --- |
+| Devemos avaliar os riscos de admin malicioso capturando fundos dos usuários?         |     |
+| Devemos avaliar riscos relacionados a tokens ERC20 deflacionários/inflacionários?    |     |
+| Devemos avaliar riscos devido a tokens com taxa na transferência?                    |     |
+| Devemos avaliar riscos devido a tokens com rebase?                                   |     |
+| Devemos avaliar riscos devido à pausa de contratos externos?                         |     |
+| Devemos avaliar riscos associados a oráculos externos (se existirem)?                |     |
+| Devemos avaliar riscos relacionados a usuários na lista negra de tokens específicos? |     |
+| O código deve estar em conformidade com algum EIP específico?                        |     |
+| Se sim para o anterior, por favor compartilhe os EIPs                                |     |
 
-## Known Issues
+## Problemas Conhecidos
 
-Protocol devs are already aware of & working on the following issues and/or consider them acceptable risks.
+Os desenvolvedores do protocolo já estão cientes e trabalhando nos seguintes problemas e/ou os consideram riscos aceitáveis.
 
-| Issue #1 |     |
-| -------- | --- |
+| Problema #1 |     |
+| ----------- | --- |
 
-## Previous Audits and Reports
+## Auditorias e Relatórios Anteriores
 
-Please share existing audit reports.
+Por favor, compartilhe relatórios de auditoria existentes.
 
-| How many previous audits | X   |
-| ------------------------ | --- |
-| Link to Audit Report(s)  |     |
+| Quantas auditorias anteriores       | X   |
+| ----------------------------------- | --- |
+| Link para Relatório(s) de Auditoria |     |
 
-## Resources
+## Recursos
 
-Resources that can help us understand protocol better.
+Recursos que podem nos ajudar a entender melhor o protocolo.
 
-### Flow Charts / Design Docs
+### Fluxogramas / Documentos de Design
 
-- 
+-
 
-### Explainer Videos
+### Vídeos Explicativos
 
-- …
+- ...
 
-### Articles / Blogs
+### Artigos / Blogs
 
-- …
+- ...
 
-## The Rekt Test
+## O Teste Rekt
 
-1. Do you have all actors, roles, and privileges documented?
-2. Do you keep documentation of all the external services, contracts, and oracles you rely on?
-3. Do you have a written and tested incident response plan?
-4. Do you document the best ways to attack your system?
-5. Do you perform identity verification and background checks on all employees?
-6. Do you have a team member with security defined in their role?
-7. Do you require hardware security keys for production systems?
-8. Does your key management system require multiple humans and physical steps?
-9. Do you define key invariants for your system and test them on every commit?
-10. Do you use the best automated tools to discover security issues in your code?
-11. Do you undergo external audits and maintain a vulnerability disclosure or bug bounty program?
-12. Have you considered and mitigated avenues for abusing users of your system?
+1. Você tem todos os atores, papéis e privilégios documentados?
+2. Você mantém documentação de todos os serviços externos, contratos e oráculos dos quais depende?
+3. Você tem um plano de resposta a incidentes por escrito e testado?
+4. Você documenta as melhores maneiras de atacar seu sistema?
+5. Você realiza verificação de identidade e verificação de antecedentes em todos os funcionários?
+6. Você tem um membro da equipe com segurança definida em sua função?
+7. Você exige chaves de segurança física para sistemas de produção?
+8. Seu sistema de gerenciamento de chaves requer múltiplos humanos e etapas físicas?
+9. Você define invariantes principais para seu sistema e os testa em cada commit?
+10. Você usa as melhores ferramentas automatizadas para descobrir problemas de segurança em seu código?
+11. Você passa por auditorias externas e mantém um programa de divulgação de vulnerabilidades ou recompensa por bugs?
+12. Você considerou e mitigou formas de abusar dos usuários do seu sistema?
 
-## Post Deployment Planning
+## Planejamento Pós-Implantação
 
-1. Are you planning on using a bug bounty program? Which one/where?
-2. What is your monitoring solution? What are you monitoring for?
-3. Who is your incident response team? 
+1. Você está planejando usar um programa de recompensa por bugs? Qual/onde?
+2. Qual é sua solução de monitoramento? O que você está monitorando?
+3. Quem é sua equipe de resposta a incidentes?

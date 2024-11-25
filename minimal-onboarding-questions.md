@@ -1,41 +1,42 @@
-# Minimal Smart Contract Security Review Onboarding
+# Revisão de Segurança Mínima de Contratos Inteligentes
 
-# Table of Contents
+# Índice
 
-- [Minimal Smart Contract Security Review Onboarding](#minimal-smart-contract-security-review-onboarding)
-- [Table of Contents](#table-of-contents)
-- [About the project / Documentation](#about-the-project--documentation)
-- [Stats](#stats)
-- [Setup](#setup)
-  - [Requirements](#requirements)
-  - [Testing](#testing)
-- [Security Review Scope](#security-review-scope)
-  - [Commit Hash](#commit-hash)
-  - [Repo URL](#repo-url)
-  - [In scope vs out of scope contracts](#in-scope-vs-out-of-scope-contracts)
-  - [Compatibilities](#compatibilities)
-- [Roles](#roles)
-- [Known Issues](#known-issues)
+- [Revisão de Segurança Mínima de Contratos Inteligentes](#revisão-de-segurança-mínima-de-contratos-inteligentes)
+- [Índice](#índice)
+- [Sobre o projeto / Documentação](#sobre-o-projeto--documentação)
+- [Estatísticas](#estatísticas)
+- [Configuração](#configuração)
+  - [Requisitos](#requisitos)
+  - [Testes](#testes)
+- [Escopo da Revisão de Segurança](#escopo-da-revisão-de-segurança)
+  - [Hash do Commit](#hash-do-commit)
+  - [URL do Repositório](#url-do-repositório)
+  - [Contratos dentro vs fora do escopo](#contratos-dentro-vs-fora-do-escopo)
+  - [Compatibilidades](#compatibilidades)
+- [Funções](#funções)
+- [Problemas Conhecidos](#problemas-conhecidos)
 
-# About the project / Documentation
+# Sobre o projeto / Documentação
 
-*Summary of the project. The more documentation, the better.*
+_Resumo do projeto. Quanto mais documentação, melhor._
 
-# Stats
+# Estatísticas
 
-*Use something like solidity metrics or cloc to get these.*
+_Use algo como métricas do solidity ou cloc para obter estes dados._
 
 - nSLOC: XX
-- Complexity Score: XX
-- Security Review Timeline: Date -> Date
+- Pontuação de Complexidade: XX
+- Cronograma da Revisão de Segurança: Data -> Data
 
-# Setup
+# Configuração
 
-## Requirements
+## Requisitos
 
-*What tools are needed to setup the codebase & test suite?*
+_Quais ferramentas são necessárias para configurar a base de código e o conjunto de testes?_
 
-Example:
+Exemplo:
+
 ```bash
 forge init
 forge install OpenZeppelin/openzeppelin-contracts --no-commit
@@ -43,50 +44,54 @@ forge install vectorized/solady --no-commit
 forge build
 ```
 
-## Testing
+## Testes
 
-*How to run tests. How to see test coverage.*
+_Como executar os testes. Como ver a cobertura dos testes._
 
 Example:
+
 ```bash
 forge test
 ```
 
-# Security Review Scope
+# Escopo da Revisão de Segurança
 
-*The specific details of the security review. Nail down exactly what the protocol is planning on deploying, and how they plan on deploying it.*
+_Os detalhes específicos da revisão de segurança. Defina exatamente o que o protocolo está planejando implantar e como planeja implantá-lo._
 
-## Commit Hash
-## Repo URL
-## In scope vs out of scope contracts
-## Compatibilities
+## Hash do Commit
 
-- Solc Version: XXX
-- Chain(s) to deploy contract to: 
-  - XXX (ie: ETH)
-  - XXX (ie: Arbitrum)
+## URL do Repositório
+
+## Contratos dentro vs fora do escopo
+
+## Compatibilidades
+
+- Versão do Solc: XXX
+- Redes para implantação do contrato:
+  - XXX (ex: ETH)
+  - XXX (ex: Arbitrum)
 - Tokens:
-  - XXX (ie: ERC20s)
-    - XXX (ie: LINK: <address>)
-    - XXX (ie: USDC: <address>)
-  - XXX (ie: ERC721s)
-    - XXX (ie: CryptoKitties: <address>)
-  - *List expected ERC20s and other specific tokens. If a protocol is expected to work with multiple or any tokens of a certain standard, you could do something like "All ERC20s". Or an ordered list like "USDC: <USDC Address>" etc*
+  - XXX (ex: ERC20s)
+    - XXX (ex: LINK: <endereço>)
+    - XXX (ex: USDC: <endereço>)
+  - XXX (ex: ERC721s)
+    - XXX (ex: CryptoKitties: <endereço>)
+  - _Liste os ERC20s esperados e outros tokens específicos. Se um protocolo deve funcionar com múltiplos ou quaisquer tokens de um determinado padrão, você pode fazer algo como "Todos os ERC20s". Ou uma lista ordenada como "USDC: <Endereço USDC>" etc_
 
-# Roles
+# Funções
 
-*What are the different actors of the system? What are their powers? What should/shouldn't they do?*
+_Quais são os diferentes atores do sistema? Quais são seus poderes? O que eles devem/não devem fazer?_
 
-Example:
-​
+Exemplo:
+
 ```
-Actors:
-    Buyer: The purchaser of services, in this scenario, a project purchasing an audit.
-    Seller: The seller of services, in this scenario, an auditor willing to audit a project.
-    Arbiter: An impartial, trusted actor who can resolve disputes between the Buyer and Seller.
-    The Arbiter is only compensated the arbiterFee amount if a dispute occurs.
+Atores:
+    Comprador: O comprador dos serviços, neste cenário, um projeto comprando uma auditoria.
+    Vendedor: O vendedor dos serviços, neste cenário, um auditor disposto a auditar um projeto.
+    Árbitro: Um ator imparcial e confiável que pode resolver disputas entre o Comprador e o Vendedor.
+    O Árbitro só é compensado com o valor da taxa de arbitragem se ocorrer uma disputa.
 ```
 
-# Known Issues
+# Problemas Conhecidos
 
-*List any issues that the protocol team is aware of and will not be acknowledging/fixing.*
+_Liste quaisquer problemas que a equipe do protocolo está ciente e não irá reconhecer/corrigir._
