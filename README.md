@@ -41,204 +41,200 @@
 
 # Sumário
 
-_Nota: Se você está familiarizado com os cursos anteriores do Patrick, renomeamos "Lessons" para "Sections"_
-
-## Curso Definitivo de Auditoria, Assembly, Segurança e DeFi em Smart Contracts
-
 <details>
 <summary>Curso Definitivo de Auditoria, Assembly, Segurança e DeFi em Smart Contracts</summary>
 <ol>
-<li><a href="#smart-contract-auditing-assembly-security-and-defi-ultimate-course">Curso Definitivo de Auditoria, Assembly, Segurança e DeFi em Smart Contracts</a></li>
+<li><a href="#curso-definitivo-de-auditoria-assembly-segurança-e-defi-em-smart-contracts">Curso Definitivo de Auditoria, Assembly, Segurança e DeFi em Smart Contracts</a></li>
 </ol>
 </details>
 <details>
 <summary>Sumário</summary>
 <ol>
-<li><a href="#table-of-contents">Sumário</a></li>
+<li><a href="#sumário">Sumário</a></li>
 </ol>
 </details>
 <details>
 <summary>Introdução, Recursos e Pré-requisitos</summary>
 <ol>
-<li><a href="#resources-for-this-course">Recursos Para Este Curso</a></li>
-<li><a href="#prerequisites">Pré-requisitos</a></li>
-<li><a href="#outcome">Resultado</a></li>
-<li><a href="#bonus-nfts">NFTs Bônus</a>
+<li><a href="#recursos-para-este-curso">Recursos Para Este Curso</a></li>
+<li><a href="#pré-requisitos">Pré-requisitos</a></li>
+<li><a href="#resultado">Resultado</a></li>
+<li><a href="#nfts-bônus">NFTs Bônus</a>
   <ul>
-    <li><a href="#important-notes-for-zksync">Notas Importantes para zkSync</a></li>
-    <li><a href="#bridging-to-zksync">Fazendo Bridge para zkSync</a></li>
+    <li><a href="#notas-importantes-para-zksync">Notas Importantes para zkSync</a></li>
+    <li><a href="#fazendo-bridge-para-zksync">Fazendo Bridge para zkSync</a></li>
   </ul>
 </li>
 </ol>
 </details>
 <details>
-<summary><a href="#curriculum">Grade Curricular</a></summary>
+<summary><a href="#grade-curricular">Grade Curricular</a></summary>
 <ol>
-<li><a href="#curriculum">Grade Curricular</a></li>
+<li><a href="#grade-curricular">Grade Curricular</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#-section-0-welcome-to-the-course">🤗 Seção 0: Bem-vindo ao Curso</a></summary>
+<summary><a href="#seção-0-bem-vindo-ao-curso">🤗 Seção 0: Bem-vindo ao Curso</a></summary>
 <ol>
-<li><a href="#welcome">Bem-vindo</a></li>
-<li><a href="#why-security">Por que Segurança?</a></li>
-<li><a href="#why-web3-is-so-important">Por que Web3 é tão importante</a></li>
-<li><a href="#the-final-boss-codebase-youll-be-able-to-audit-this-at-the-end-of-this-course">O Código do Chefe Final, você será capaz de auditá-lo ao final deste curso</a></li>
-<li><a href="#best-practices-for-this-course">Melhores Práticas para este curso</a></li>
-<li><a href="#section-0-nft">NFT da Seção 0</a></li>
+<li><a href="#bem-vindo">Bem-vindo</a></li>
+<li><a href="#por-que-segurança">Por que Segurança?</a></li>
+<li><a href="#por-que-web3-é-tão-importante">Por que Web3 é tão importante</a></li>
+<li><a href="#o-código-do-chefe-final-você-será-capaz-de-auditá-lo-ao-final-deste-curso">O Código do Chefe Final, você será capaz de auditá-lo ao final deste curso</a></li>
+<li><a href="#melhores-práticas-para-este-curso">Melhores Práticas para este curso</a></li>
+<li><a href="#nft-da-seção-0">NFT da Seção 0</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#-section-1-review-dont-skip">🐸 Seção 1: Revisão (Não pule)</a></summary>
+<summary><a href="#seção-1-revisão-não-pule">🐸 Seção 1: Revisão (Não pule)</a></summary>
 <ol>
-<li><a href="#section-1-nft">NFT da Seção 1</a></li>
+<li><a href="#nft-da-seção-1">NFT da Seção 1</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#-section-2-what-is-a-smart-contract-audit-security-review">❓ Seção 2: O que é uma auditoria de smart contract (Revisão de Segurança)?</a></summary>
+<summary><a href="#seção-2-o-que-é-uma-auditoria-de-smart-contract-revisão-de-segurança">❓ Seção 2: O que é uma auditoria de smart contract (Revisão de Segurança)?</a></summary>
 <ol>
-<li><a href="#what-is-a-security-reviewsmart-contract-audit">O que é uma revisão de segurança/auditoria de smart contract?</a></li>
-<li><a href="#smart-contract-development-life-cycle">Ciclo de Vida do Desenvolvimento de Smart Contract</a></li>
-<li><a href="#top-smart-contract-auditors-subjective">Principais Auditores de Smart Contract (Subjetivo!)</a></li>
-<li><a href="#tooling">Ferramentas</a></li>
-<li><a href="#audit-readiness">Preparação para Auditoria</a></li>
-<li><a href="#attacker-vs-defender-mindset">Mentalidade de Atacante vs. Defensor</a></li>
-<li><a href="#top-attack-vectors">Principais Vetores de Ataque</a></li>
-<li><a href="#section-2-nft">NFT da Seção 2</a></li>
+<li><a href="#o-que-é-uma-revisão-de-segurançaauditoria-de-smart-contract">O que é uma revisão de segurança/auditoria de smart contract?</a></li>
+<li><a href="#ciclo-de-vida-do-desenvolvimento-de-smart-contract">Ciclo de Vida do Desenvolvimento de Smart Contract</a></li>
+<li><a href="#principais-auditores-de-smart-contract-subjetivo">Principais Auditores de Smart Contract (Subjetivo!)</a></li>
+<li><a href="#ferramentas">Ferramentas</a></li>
+<li><a href="#preparação-para-auditoria">Preparação para Auditoria</a></li>
+<li><a href="#mentalidade-de-atacante-vs-defensor">Mentalidade de Atacante vs. Defensor</a></li>
+<li><a href="#principais-vetores-de-ataque">Principais Vetores de Ataque</a></li>
+<li><a href="#nft-da-seção-2">NFT da Seção 2</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#️-section-3-your-first-audit-security-review--passwordstore-audit">⛳️ Seção 3: Sua primeira auditoria | Auditoria PasswordStore</a></summary>
+<summary><a href="#seção-3-sua-primeira-auditoria-auditoria-passwordstore">⛳️ Seção 3: Sua primeira auditoria | Auditoria PasswordStore</a></summary>
 <ol>
-<li><a href="#security-review--audit">Revisão de Segurança > Auditoria</a></li>
-<li><a href="#the-tincho">"O Tincho"</a></li>
+<li><a href="#revisão-de-segurança-auditoria">Revisão de Segurança > Auditoria</a></li>
+<li><a href="#o-tincho">"O Tincho"</a></li>
 <li><a href="#exploits">Exploits</a></li>
-<li><a href="#exploits-access-controls">Exploits: Controles de Acesso</a></li>
-<li><a href="#writing-your-first-finding">Escrevendo seu primeiro achado</a></li>
-<li><a href="#exploits-private-data">Exploits: Dados Privados</a></li>
-<li><a href="#your-first-report">Seu primeiro relatório</a></li>
-<li><a href="#section-3-nft">NFT da Seção 3</a></li>
+<li><a href="#exploits-controles-de-acesso">Exploits: Controles de Acesso</a></li>
+<li><a href="#escrevendo-seu-primeiro-achado">Escrevendo seu primeiro achado</a></li>
+<li><a href="#exploits-dados-privados">Exploits: Dados Privados</a></li>
+<li><a href="#seu-primeiro-relatório">Seu primeiro relatório</a></li>
+<li><a href="#nft-da-seção-3">NFT da Seção 3</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#-section-4-manual--static-analysis--puppy-raffle-audit">🐶 Seção 4: Análise Manual & Estática | Auditoria Puppy Raffle</summary>
+<summary><a href="#seção-4-análise-manual-estática-auditoria-puppy-raffle">🐶 Seção 4: Análise Manual & Estática | Auditoria Puppy Raffle</summary>
 <ol>
-<li><a href="#tooling-static-analysis">Ferramentas: Análise Estática</a></li>
-<li><a href="#scoping--reconnaissance-puppy-raffle">Escopo & Reconhecimento: Puppy Raffle</a></li>
-<li><a href="#exploits-reentrancy">Exploits: Reentrância</a></li>
-<li><a href="#exploits-weak-rng">Exploits: RNG Fraco</a></li>
-<li><a href="#exploits-arithmetic-issues">Exploits: Problemas Aritméticos</a></li>
-<li><a href="#exploits-dos-denial-of-service">Exploits: DoS (Negação de serviço)</a></li>
-<li><a href="#exploits-poor-eth-handling">Exploits: Manipulação Inadequada de ETH</a></li>
-<li><a href="#informational-findings">Achados Informativos</a></li>
-<li><a href="#gas-audits">Auditorias de Gas</a></li>
-<li><a href="#code-maturity">Maturidade do Código</a></li>
-<li><a href="#writing-the-report-puppy-raffle">Escrevendo o relatório: Puppy Raffle</a></li>
-<li><a href="#section-4-nft">NFT da Seção 4</a></li>
+<li><a href="#ferramentas-análise-estática">Ferramentas: Análise Estática</a></li>
+<li><a href="#escopo-reconhecimento-puppy-raffle">Escopo & Reconhecimento: Puppy Raffle</a></li>
+<li><a href="#exploits-reentrância">Exploits: Reentrância</a></li>
+<li><a href="#exploits-rng-fraco">Exploits: RNG Fraco</a></li>
+<li><a href="#exploits-problemas-aritméticos">Exploits: Problemas Aritméticos</a></li>
+<li><a href="#exploits-dos-negação-de-serviço">Exploits: DoS (Negação de serviço)</a></li>
+<li><a href="#exploits-manipulação-inadequada-de-eth">Exploits: Manipulação Inadequada de ETH</a></li>
+<li><a href="#achados-informativos">Achados Informativos</a></li>
+<li><a href="#auditorias-de-gas">Auditorias de Gas</a></li>
+<li><a href="#maturidade-do-código">Maturidade do Código</a></li>
+<li><a href="#escrevendo-o-relatório-puppy-raffle">Escrevendo o relatório: Puppy Raffle</a></li>
+<li><a href="#nft-da-seção-4">NFT da Seção 4</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#-section-5-invariants--intro-to-defi--tswap-audit">🔄 Seção 5: Invariantes & Introdução ao DeFi | Auditoria TSwap</a></summary>
+<summary><a href="#seção-5-invariantes-introdução-ao-defi-auditoria-tswap">🔄 Seção 5: Invariantes & Introdução ao DeFi | Auditoria TSwap</a></summary>
 <ol>
-<li><a href="#scoping--reconnaissance-t-swap">Escopo & Reconhecimento: T-Swap</a></li>
-<li><a href="#intro-to-defionchain-finance">Introdução ao DeFi/Finanças OnChain</a></li>
-<li><a href="#tooling-t-swap">Ferramentas: T-Swap</a></li>
-<li><a href="#exploits-weird-erc20s">Exploits: ERC20s Estranhos</a></li>
-<li><a href="#exploits-core-invariant-breaking">Exploits: Quebra de Invariante Principal</a></li>
-<li><a href="#design-patterns-t-swap">Padrões de Design: T-Swap</a></li>
-<li><a href="#section-5-nft">NFT da Seção 5</a></li>
+<li><a href="#escopo-reconhecimento-t-swap">Escopo & Reconhecimento: T-Swap</a></li>
+<li><a href="#introdução-ao-defifinanças-onchain">Introdução ao DeFi/Finanças OnChain</a></li>
+<li><a href="#ferramentas-t-swap">Ferramentas: T-Swap</a></li>
+<li><a href="#exploits-erc20s-estranhos">Exploits: ERC20s Estranhos</a></li>
+<li><a href="#exploits-quebra-de-invariante-principal">Exploits: Quebra de Invariante Principal</a></li>
+<li><a href="#padrões-de-design-t-swap">Padrões de Design: T-Swap</a></li>
+<li><a href="#nft-da-seção-5">NFT da Seção 5</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#️-section-6-centralization-proxies-and-oracles--thunder-loan-audit">🌩️ Seção 6: Centralização, Proxies e Oráculos | Auditoria Thunder Loan</a></summary>
+<summary><a href="#seção-6-centralização-proxies-e-oráculos-auditoria-thunder-loan">🌩️ Seção 6: Centralização, Proxies e Oráculos | Auditoria Thunder Loan</a></summary>
 <ol>
-<li><a href="#️-section-6-centralization-proxies-and-oracles--thunder-loan-audit">Seção 6: Centralização, Proxies e Oráculos | Auditoria Thunder Loan</a></li>
-<li><a href="#scoping--reconnaissance-thunder-loan">Escopo & Reconhecimento: Thunder Loan</a>
+<li><a href="#seção-6-centralização-proxies-e-oráculos-auditoria-thunder-loan">Seção 6: Centralização, Proxies e Oráculos | Auditoria Thunder Loan</a></li>
+<li><a href="#escopo-reconhecimento-thunder-loan">Escopo & Reconhecimento: Thunder Loan</a>
   <ul>
-    <li><a href="#defi-borrowing--lending">DeFi: Empréstimo & Empréstimo</a></li>
-    <li><a href="#malicious-scope">Escopo Malicioso</a></li>
+    <li><a href="#defi-empréstimo-empréstimo">DeFi: Empréstimo & Empréstimo</a></li>
+    <li><a href="#escopo-malicioso">Escopo Malicioso</a></li>
   </ul>
 </li>
-<li><a href="#tooling-thunder-loan">Ferramentas: Thunder Loan</a>
+<li><a href="#ferramentas-thunder-loan">Ferramentas: Thunder Loan</a>
   <ul>
-    <li><a href="#exploits-failure-to-initialize">Exploits: Falha na inicialização</a></li>
-    <li><a href="#exploits-storage-collision">Exploits: Colisão de armazenamento</a></li>
-    <li><a href="#exploits-centralization">Exploits: Centralização</a></li>
-    <li><a href="#exploits-missing-events">Exploits: Eventos ausentes</a></li>
-    <li><a href="#exploits-bad-upgrade">Exploits: Atualização ruim</a></li>
-    <li><a href="#exploits-oracle--price-manipulation">Exploits: Manipulação de Oráculo & Preço</a></li>
+    <li><a href="#exploits-falha-na-inicialização">Exploits: Falha na inicialização</a></li>
+    <li><a href="#exploits-colisão-de-armazenamento">Exploits: Colisão de armazenamento</a></li>
+    <li><a href="#exploits-centralização">Exploits: Centralização</a></li>
+    <li><a href="#exploits-eventos-ausentes">Exploits: Eventos ausentes</a></li>
+    <li><a href="#exploits-atualização-ruim">Exploits: Atualização ruim</a></li>
+    <li><a href="#exploits-manipulação-de-oráculo-preço">Exploits: Manipulação de Oráculo & Preço</a></li>
   </ul>
 </li>
-<li><a href="#design-patterns-thunder-loan">Padrões de Design: Thunder Loan</a></li>
-<li><a href="#section-6-nft">NFT da Seção 6</a></li>
+<li><a href="#padrões-de-design-thunder-loan">Padrões de Design: Thunder Loan</a></li>
+<li><a href="#nft-da-seção-6">NFT da Seção 6</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#-section-7-bridges-chains-signatures-intro-to-yulassembly--bridge-boss-audit">🌉 Seção 7: Bridges, Chains, Assinaturas, Introdução ao Yul/Assembly | Auditoria Bridge Boss</a></summary>
+<summary><a href="#seção-7-bridges-chains-assinaturas-introdução-ao-yulassembly-auditoria-bridge-boss">🌉 Seção 7: Bridges, Chains, Assinaturas, Introdução ao Yul/Assembly | Auditoria Bridge Boss</a></summary>
 <ol>
-<li><a href="#-section-7-bridges-chains-signatures-intro-to-yulassembly--bridge-boss-audit">Seção 7: Bridges, Chains, Assinaturas, Introdução ao Yul/Assembly | Auditoria Bridge Boss</a></li>
-<li><a href="#tooling-boss-bridge">Ferramentas: Boss Bridge</a></li>
-<li><a href="#scoping--reconnaissance-boss-bridge">Escopo & Reconhecimento: Boss Bridge</a>
+<li><a href="#seção-7-bridges-chains-assinaturas-introdução-ao-yulassembly-auditoria-bridge-boss">Seção 7: Bridges, Chains, Assinaturas, Introdução ao Yul/Assembly | Auditoria Bridge Boss</a></li>
+<li><a href="#ferramentas-boss-bridge">Ferramentas: Boss Bridge</a></li>
+<li><a href="#escopo-reconhecimento-boss-bridge">Escopo & Reconhecimento: Boss Bridge</a>
   <ul>
-    <li><a href="#exploits-opcode-support">Exploits: Suporte a Opcode</a></li>
-    <li><a href="#exploits-signature-replay">Exploits: Replay de Assinatura</a></li>
-    <li><a href="#exploits-erc20-contract-approval">Exploits: Aprovação de Contrato ERC20</a></li>
-    <li><a href="#exploits-unlimited-minting">Exploits: Mintagem Ilimitada</a></li>
+    <li><a href="#exploits-suporte-a-opcode">Exploits: Suporte a Opcode</a></li>
+    <li><a href="#exploits-replay-de-assinatura">Exploits: Replay de Assinatura</a></li>
+    <li><a href="#exploits-aprovação-de-contrato-erc20">Exploits: Aprovação de Contrato ERC20</a></li>
+    <li><a href="#exploits-mintagem-ilimitada">Exploits: Mintagem Ilimitada</a></li>
   </ul>
 </li>
-<li><a href="#bridge-hacks">Hacks de Bridge</a>
+<li><a href="#hacks-de-bridge">Hacks de Bridge</a>
   <ul>
-    <li><a href="#writing-the-report-boss-bridge">Escrevendo o relatório: Boss Bridge</a></li>
+    <li><a href="#escrevendo-o-relatório-boss-bridge">Escrevendo o relatório: Boss Bridge</a></li>
   </ul>
 </li>
-<li><a href="#design-patterns-boss-bridge">Padrões de Design: Boss Bridge</a></li>
-<li><a href="#section-7-nft">NFT da Seção 7</a></li>
+<li><a href="#padrões-de-design-boss-bridge">Padrões de Design: Boss Bridge</a></li>
+<li><a href="#nft-da-seção-7">NFT da Seção 7</a></li>
 </ol>
 </details>
 <details>
-<summary><a href="#section-8-the-final-boss-audit-mev-nodes--daos--vault-guardians-audit">🛡️ Seção 8: (A AUDITORIA DO CHEFE FINAL) MEV, Nodes & DAOs | Auditoria Vault Guardians</a></summary>
+<summary><a href="#seção-8-a-auditoria-do-chefe-final-mev-nodes-daos-auditoria-vault-guardians">🛡️ Seção 8: (A AUDITORIA DO CHEFE FINAL) MEV, Nodes & DAOs | Auditoria Vault Guardians</a></summary>
 <ol>
-<li><a href="#section-8-the-final-boss-audit-mev-nodes--daos--vault-guardians-audit">Seção 8: (A AUDITORIA DO CHEFE FINAL) MEV, Nodes & DAOs | Auditoria Vault Guardians</a></li>
-<li><a href="#concepts-vault-guardians">Conceitos: Vault Guardians</a>
+<li><a href="#seção-8-a-auditoria-do-chefe-final-mev-nodes-daos-auditoria-vault-guardians">Seção 8: (A AUDITORIA DO CHEFE FINAL) MEV, Nodes & DAOs | Auditoria Vault Guardians</a></li>
+<li><a href="#conceitos-vault-guardians">Conceitos: Vault Guardians</a>
   <ul>
-    <li><a href="#exploits-governance-attack">Exploits: Ataque de Governança</a></li>
-    <li><a href="#exploits-blocktimestamp-can-be-bad">Exploits: `block.timestamp` pode ser ruim</a></li>
+    <li><a href="#exploits-ataque-de-governança">Exploits: Ataque de Governança</a></li>
+    <li><a href="#exploits-blocktimestamp-pode-ser-ruim">Exploits: `block.timestamp` pode ser ruim</a></li>
   </ul>
 </li>
-<li><a href="#introduction-to-mev">Introdução ao MEV</a>
+<li><a href="#introdução-ao-mev">Introdução ao MEV</a>
   <ul>
-    <li><a href="#exploits-slippage-protection">Exploits: Proteção contra Slippage</a></li>
+    <li><a href="#exploits-proteção-contra-slippage">Exploits: Proteção contra Slippage</a></li>
   </ul>
 </li>
-<li><a href="#design-patterns-vault-guardians">Padrões de Design: Vault Guardians</a></li>
-<li><a href="#section-8-nft">NFT da Seção 8</a></li>
+<li><a href="#padrões-de-design-vault-guardians">Padrões de Design: Vault Guardians</a></li>
+<li><a href="#nft-da-seção-8">NFT da Seção 8</a></li>
 </ol>
 </details>
 <details>
 <summary>Primeira Auditoria Competitiva CodeHawks</summary>
 <ol>
-<li><a href="#first-codehawks-competitive-audit">Primeira Auditoria Competitiva CodeHawks</a></li>
+<li><a href="#primeira-auditoria-competitiva-codehawks">Primeira Auditoria Competitiva CodeHawks</a></li>
 </ol>
 </details>
 
 <details>
 <summary>Parabéns</summary>
 <ol>
-<li><a href="#congratulations">Parabéns</a></li>
-<li><a href="#where-do-i-go-now">Para onde vou agora?</a></li>
-<li><a href="#learning-more">Aprendendo Mais</a></li>
+<li><a href="#parabéns">Parabéns</a></li>
+<li><a href="#para-onde-vou-agora">Para onde vou agora?</a></li>
+<li><a href="#aprendendo-mais">Aprendendo Mais</a></li>
 </ol>
 </details>
 <details>
 <summary>Obrigado</summary>
 <ol>
-<li><a href="#thank-you">Obrigado</a></li>
-<li><a href="#sponsors">Patrocinadores</a></li>
-<li><a href="#lead-lecturers--code-builders">Professores Principais / Construtores de Código</a></li>
-<li><a href="#guest-lecturers">Professores Convidados</a></li>
-<li><a href="#special-thanks">Agradecimentos Especiais</a></li>
-<li><a href="#more-security-stuff">Mais Conteúdo de Segurança</a></li>
-<li><a href="#huge-extra-thank-you">Enorme Agradecimento Extra</a></li>
+<li><a href="#obrigado">Obrigado</a></li>
+<li><a href="#patrocinadores">Patrocinadores</a></li>
+<li><a href="#professores-principais-construtores-de-código">Professores Principais / Construtores de Código</a></li>
+<li><a href="#professores-convidados">Professores Convidados</a></li>
+<li><a href="#agradecimentos-especiais">Agradecimentos Especiais</a></li>
+<li><a href="#mais-conteúdo-de-segurança">Mais Conteúdo de Segurança</a></li>
+<li><a href="#enorme-agradecimento-extra">Enorme Agradecimento Extra</a></li>
 </ol>
 </details>
 
