@@ -6,7 +6,6 @@
 [stars-url]: https://github.com/diegofornalha/auditoria-solidity/stargazers
 [issues-shield]: https://img.shields.io/github/issues/diegofornalha/auditoria-solidity.svg?style=for-the-badge
 [issues-url]: https://github.com/diegofornalha/auditoria-solidity/issues
-[license-shield]: https://img.shields.io/github/license/diegofornalha/auditoria-solidity.svg?style=for-the-badge
 
 <h1 align="center"> Auditoria Solidity
  </h1>
